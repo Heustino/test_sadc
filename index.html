@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
-<body>
+<body> 
+
     <!-- Hero Section -->
     <header class="hero">
         <div class="overlay">
             <div class="hero-content">
-                <img src="./assets/Logo de la SADC.png" alt="Logo SADC-ASCL" class="logo">
-                <h1>SADC-ASCL</h1>
-                <p>Le Netflix du droit africain</p>
+                <h1 data-i18n="hero-title">SADC-ASCL</h1>
+                <p data-i18n="hero-subtitle">Le hub du droit communautaire africain</p>
                 <div class="buttons">
-                    <a href="#revue" class="btn">Explorer la revue</a>
-                    <a href="#mediatheque" class="btn">Voir les conférences</a>
+                    <a href="#" class="btn" data-i18n="apropos">A propos</a>
+                    <a href="" class="btn" data-i18n="contact">Contact</a>
                 </div>
             </div>
         </div>
-    </header> 
+    </header>
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
         <div class="container-fluid">
@@ -32,14 +32,55 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#revue">Revue</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#mediatheque">Médiathèque</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#evenements">Événements</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#intervenants">Intervenants</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" data-i18n="accueil" href="#">Accueil</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="revue" href="" role="button" data-bs-toggle="dropdown">Revue</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" data-i18n="comite-scientifique" href="">Comité scientifique</a></li>
+                            <li><a class="dropdown-item" data-i18n="comite-redaction" href="">Comité de rédaction</a></li>
+                            <li><a class="dropdown-item" data-i18n="comite-lecture" href="">Comité de lecture</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="ressources" href="" role="button" data-bs-toggle="dropdown">Ressources</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" data-i18n="mediatheque" href="">Médiathèque</a></li>
+                            <li><a class="dropdown-item" data-i18n="bibliotheque" href="">Bibliothèque</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-i18n="blog" href="">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" data-i18n="institutionnel" href="">Institutionnel</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="evenements" href="" role="button" data-bs-toggle="dropdown">Événements</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" data-i18n="evenements-permanents" href="">Permanents</a></li>
+                            <li><a class="dropdown-item" data-i18n="evenements-occasionnels" href="">Occasionnels</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="initiatives" href="" role="button" data-bs-toggle="dropdown">Initiatives</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" data-i18n="projets" href="">Projets</a></li>
+                            <li><a class="dropdown-item" data-i18n="formations" href="">Formations</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="communaute" href="" role="button" data-bs-toggle="dropdown">Communauté</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" data-i18n="adhesion" href="">Adhésion</a></li>
+                            <li><a class="dropdown-item" data-i18n="galerie-communautaristes" href="">Galerie des communautaristes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="langue" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown">🌐Langue</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('fr')">Français</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('en')">English</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('sw')">Swahili</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('ar')">العربية</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -49,70 +90,21 @@
     <section id="revue" class="py-5 revue-section">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title">Revue Scientifique</h2>
-                <p class="section-subtitle">Articles académiques, cahiers juridiques et publications</p>
+                <h2 class="section-title" data-i18n="revue-title">Revue Scientifique</h2>
+                <p class="section-subtitle" data-i18n="revue-subtitle">Articles académiques, cahiers juridiques et publications</p>
             </div>
-
-            <!-- Barre de recherche 
-            <div class="row mb-4">
-                <div class="col-md-8 mx-auto">
-                    <div class="input-group futuristic-search">
-                        <input type="text" class="form-control" placeholder="Rechercher par mot-clé, auteur, thème, année...">
-                        <button class="btn btn-custom">Rechercher</button>
-                    </div>
-                </div>
-            </div> -->
 
             <!-- Grille d’articles -->
             <div class="row">
-                <!-- Exemple d’article -->
-                <!-- <div class="col-md-4 mb-4">
-                    <div class="card futuristic-card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Titre de l’article</h5>
-                            <p class="card-text">Résumé court de l’article scientifique, droit communautaire, ZLECAf, etc.</p>
-                            <p class="card-meta">Auteur : Dr. NKILI Pascal</p>
-                            <p>Date : 2026</p>
-                            <a href="#" class="btn btn-custom">Télécharger PDF</a>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- Duplique ce bloc pour chaque article -->
-                <!-- <div class="col-md-4 mb-4">
-                    <div class="card futuristic-card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Titre de l’article</h5>
-                            <p class="card-text">Résumé court de l’article scientifique, droit communautaire, ZLECAf, etc.</p>
-                            <p class="card-meta">Auteur : Dr. NKILI Pascal</p>
-                            <p>Date : 2026</p>
-                            <a href="#" class="btn btn-custom">Télécharger PDF</a>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- Exemple supplémentaire -->
-                <!-- <div class="col-md-4 mb-4">
-                    <div class="card futuristic-card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Titre de l’article</h5>
-                            <p class="card-text">Résumé court de l’article scientifique, droit communautaire, ZLECAf, etc.</p>
-                            <p class="card-meta">Auteur : Dr. NKILI Pascal</p>
-                            <p>Date : 2026</p>
-                            <a href="#" class="btn btn-custom">Télécharger PDF</a>
-                        </div>
-                    </div>
-                </div> -->
-
                 <!-- Duplique ce bloc pour chaque article -->
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">Titre de l’article</h5>
-                            <p class="card-text">Résumé court de l’article scientifique, droit communautaire, ZLECAf, etc.</p>
-                            <p class="card-meta">Auteur : Dr. NKILI Pascal</p>
-                            <p>Date : 2026</p>
-                            <a href="#" class="btn btn-custom">Télécharger PDF</a>
+                            <h5 class="card-title" data-i18n="article-title">Titre de l’article</h5>
+                            <p class="card-text" data-i18n="article-summary">Résumé court de l’article scientifique, droit communautaire, ZLECAf, etc.</p>
+                            <p class="card-meta" data-i18n="article-author">Auteur : Dr. NKILI Pascal</p>
+                            <p data-i18n="article-date">Date : 2026</p>
+                            <a href="#" class="btn btn-custom" data-i18n="article-download">Télécharger PDF</a>
                         </div>
                     </div>
                 </div>
@@ -121,11 +113,11 @@
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">Titre de l’article</h5>
-                            <p class="card-text">Résumé court de l’article scientifique, droit communautaire, ZLECAf, etc.</p>
-                            <p class="card-meta">Auteur : Dr. NKILI Pascal</p>
-                            <p>Date : 2026</p>
-                            <a href="#" class="btn btn-custom">Télécharger PDF</a>
+                            <h5 class="card-title" data-i18n="article-title">Titre de l’article</h5>
+                            <p class="card-text" data-i18n="article-summary">Résumé court de l’article scientifique, droit communautaire, ZLECAf, etc.</p>
+                            <p class="card-meta" data-i18n="article-author">Auteur : Dr. NKILI Pascal</p>
+                            <p data-i18n="article-date">Date : 2026</p>
+                            <a href="#" class="btn btn-custom" data-i18n="article-download">Télécharger PDF</a>
                         </div>
                     </div>
                 </div>
@@ -134,11 +126,11 @@
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">Titre de l’article</h5>
-                            <p class="card-text">Résumé court de l’article scientifique, droit communautaire, ZLECAf, etc.</p>
-                            <p class="card-meta">Auteur : Dr. NKILI Pascal</p>
-                            <p>Date : 2026</p>
-                            <a href="#" class="btn btn-custom">Télécharger PDF</a>
+                            <h5 class="card-title" data-i18n="article-title">Titre de l’article</h5>
+                            <p class="card-text" data-i18n="article-summary">Résumé court de l’article scientifique, droit communautaire, ZLECAf, etc.</p>
+                            <p class="card-meta" data-i18n="article-author">Auteur : Dr. NKILI Pascal</p>
+                            <p data-i18n="article-date">Date : 2026</p>
+                            <a href="#" class="btn btn-custom" data-i18n="article-download">Télécharger PDF</a>
                         </div>
                     </div>
                 </div> 
@@ -150,59 +142,20 @@
     <section id="blog" class="py-5 blog-section">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title">Blog & Actualités</h2>
-                <p class="section-subtitle">Analyses rapides, tribunes et informations accessibles</p>
+                <h2 class="section-title" data-i18n="blog-title">Blog & Actualités</h2>
+                <p class="section-subtitle" data-i18n="blog-subtitle">Analyses rapides, tribunes et informations accessibles</p>
             </div>
 
             <div class="row">
                 <!-- Exemple d’article de blog -->
-                <!-- <div class="col-md-4 mb-4">
-                    <div class="card futuristic-card h-100">
-                        <img src="./assets/img.jpg" class="card-img-top" alt="Image article">
-                        <div class="card-body">
-                            <h5 class="card-title">Actualité juridique</h5>
-                            <p class="card-text">Résumé court d’une actualité juridique récente.</p>
-                            <p class="card-meta">Publié le 05 avril 2026</p>
-                            <a href="#" class="btn btn-custom">Lire plus</a>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- Exemple d’analyse -->
-                <!-- <div class="col-md-4 mb-4">
-                    <div class="card futuristic-card h-100">
-                        <img src="./assets/img.jpg" class="card-img-top" alt="Image article">
-                        <div class="card-body">
-                            <h5 class="card-title">Analyse rapide</h5>
-                            <p class="card-text">Un regard concis sur une problématique de gouvernance.</p>
-                            <p class="card-meta">Publié le 02 avril 2026</p>
-                            <a href="#" class="btn btn-custom">Lire plus</a>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- Exemple de tribune -->
-                <!-- <div class="col-md-4 mb-4">
-                    <div class="card futuristic-card h-100">
-                        <img src="./assets/img.jpg" class="card-img-top" alt="Image article">
-                        <div class="card-body">
-                            <h5 class="card-title">Tribune</h5>
-                            <p class="card-text">Opinion d’un expert africain sur l’intégration régionale.</p>
-                            <p class="card-meta">Publié le 30 mars 2026</p>
-                            <a href="#" class="btn btn-custom">Lire plus</a>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- Exemple d’article de blog -->
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100">
                         <img src="./assets/img.jpg" class="card-img-top" alt="Image article">
                         <div class="card-body">
-                            <h5 class="card-title">Actualité juridique</h5>
-                            <p class="card-text">Résumé court d’une actualité juridique récente.</p>
-                            <p class="card-meta">Publié le 05 avril 2026</p>
-                            <a href="#" class="btn btn-custom">Lire plus</a>
+                            <h5 class="card-title" data-i18n="blog-article1-title">Actualité juridique</h5>
+                            <p class="card-text" data-i18n="blog-article1-summary">Résumé court d’une actualité juridique récente.</p>
+                            <p class="card-meta" data-i18n="blog-article1-date">Publié le 05 avril 2026</p>
+                            <a href="#" class="btn btn-custom" data-i18n="blog-readmore">Lire plus</a>
                         </div>
                     </div>
                 </div>
@@ -212,10 +165,10 @@
                     <div class="card futuristic-card h-100">
                         <img src="./assets/img.jpg" class="card-img-top" alt="Image article">
                         <div class="card-body">
-                            <h5 class="card-title">Analyse rapide</h5>
-                            <p class="card-text">Un regard concis sur une problématique de gouvernance.</p>
-                            <p class="card-meta">Publié le 02 avril 2026</p>
-                            <a href="#" class="btn btn-custom">Lire plus</a>
+                            <h5 class="card-title" data-i18n="blog-article2-title">Analyse rapide</h5>
+                            <p class="card-text" data-i18n="blog-article2-summary">Un regard concis sur une problématique de gouvernance.</p>
+                            <p class="card-meta" data-i18n="blog-article2-date">Publié le 02 avril 2026</p>
+                            <a href="#" class="btn btn-custom" data-i18n="blog-readmore">Lire plus</a>
                         </div>
                     </div>
                 </div>
@@ -225,185 +178,112 @@
                     <div class="card futuristic-card h-100">
                         <img src="./assets/img.jpg" class="card-img-top" alt="Image article">
                         <div class="card-body">
-                            <h5 class="card-title">Tribune</h5>
-                            <p class="card-text">Opinion d’un expert africain sur l’intégration régionale.</p>
-                            <p class="card-meta">Publié le 30 mars 2026</p>
-                            <a href="#" class="btn btn-custom">Lire plus</a>
+                            <h5 class="card-title" data-i18n="blog-article3-title">Tribune</h5>
+                            <p class="card-text" data-i18n="blog-article3-summary">Opinion d’un expert africain sur l’intégration régionale.</p>
+                            <p class="card-meta" data-i18n="blog-article3-date">Publié le 30 mars 2026</p>
+                            <a href="#" class="btn btn-custom" data-i18n="blog-readmore">Lire plus</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Section Médiathèque -->
     <section id="mediatheque" class="py-5 mediatheque-section">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title">Médiathèque</h2>
-                <p class="section-subtitle">Conférences, panels et interviews</p>
+                <h2 class="section-title" data-i18n="mediatheque-title">Médiathèque</h2>
+                <p class="section-subtitle" data-i18n="mediatheque-subtitle">Conférences, panels et interviews</p>
             </div>
 
-            <!-- Catalogue vidéo -->
             <div class="row">
-                <!-- Exemple de vidéo -->
-                <!-- <div class="col-md-4 mb-4">
-                    <div class="card futuristic-card h-100">
-                        <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/bYwYwKXz9mM" 
-                                title="Vidéo conférence"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">La Coupe d’Afrique des Nations au cœur de l’intégration africaine</h5>
-                            <p class="card-text">Résumé court de la conférence ou panel.</p>
-                            <p class="card-meta">Durée : 05h39</p>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- Duplique ce bloc pour chaque vidéo -->
-                <!-- <div class="col-md-4 mb-4">
-                    <div class="card futuristic-card h-100">
-                        <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/QjvXzvX9mN4" 
-                                title="Vidéo panel"
-                                frameborder="0"
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Colloque de la SADC – Panel 4 (13 décembre 2025)</h5>
-                            <p class="card-text">Résumé court de la conférence ou panel.</p>
-                            <p class="card-meta">Durée : 03:02</p>
-                        </div>
-                    </div>
-                </div> -->
-
+                <!-- Vidéo 1 -->
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100">
                         <div class="video-container">
-                            <!-- Miniature à la place de l’iframe -->
                             <img src="./assets/Logo de la SADC.png" alt="Miniature conférence" class="img-fluid rounded futuristic-thumbnail">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Colloque de la SADC – Panel 3 (13 décembre 2025)</h5>
-                            <p class="card-text">Résumé court de la conférence.</p>
-                            <p class="card-meta">Durée : 02h53</p>
-                            <!-- Bouton vers YouTube -->
-                            <a href="https://www.youtube.com/live/DxWmZ6jyuDQ?si=tzKCaST_6LSvGcA1" target="_blank" class="btn btn-custom">Voir sur YouTube</a>
+                            <h5 class="card-title" data-i18n="mediatheque-video1-title">Colloque de la SADC – Panel 3 (13 décembre 2025)</h5>
+                            <p class="card-text" data-i18n="mediatheque-video1-summary">Résumé court de la conférence.</p>
+                            <p class="card-meta" data-i18n="mediatheque-video1-duration">Durée : 02h53</p>
+                            <a href="https://www.youtube.com/live/DxWmZ6jyuDQ?si=tzKCaST_6LSvGcA1" target="_blank" class="btn btn-custom" data-i18n="mediatheque-watch">Voir sur YouTube</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- <div class="col-md-4 mb-4">
-                    <div class="card futuristic-card h-100">
-                        <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/DxWmZ6jyuDQ" 
-                                title="Vidéo interview"
-                                frameborder="0"
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Colloque de la SADC – Panel 3 (13 décembre 2025)</h5>
-                            <p class="card-text">Opinion d’un professeur sur le droit communautaire.</p>
-                            <p class="card-meta">Durée : 02h53</p>
-                        </div>
-                    </div>
-                </div> -->
-
+                <!-- Vidéo 2 -->
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100">
                         <div class="video-container">
-                            <!-- Miniature à la place de l’iframe -->
                             <img src="./assets/Logo de la SADC.png" alt="Miniature conférence" class="img-fluid rounded futuristic-thumbnail">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Colloque de la SADC – Panel 2 (12 décembre 2025)</h5>
-                            <p class="card-text">Résumé court de la conférence.</p>
-                            <p class="card-meta">Durée : 02h47</p>
-                            <!-- Bouton vers YouTube -->
-                            <a href="https://www.youtube.com/live/-2IU2ZiYaY0?si=SwjMTvfWTmywHngA" target="_blank" class="btn btn-custom">Voir sur YouTube</a>
+                            <h5 class="card-title" data-i18n="mediatheque-video2-title">Colloque de la SADC – Panel 2 (12 décembre 2025)</h5>
+                            <p class="card-text" data-i18n="mediatheque-video2-summary">Résumé court de la conférence.</p>
+                            <p class="card-meta" data-i18n="mediatheque-video2-duration">Durée : 02h47</p>
+                            <a href="https://www.youtube.com/live/-2IU2ZiYaY0?si=SwjMTvfWTmywHngA" target="_blank" class="btn btn-custom" data-i18n="mediatheque-watch">Voir sur YouTube</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- <div class="col-md-4 mb-4">
-                    <div class="card futuristic-card h-100">
-                        <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/-2IU2ZiYaY0" 
-                                title="Vidéo panel"
-                                frameborder="0"
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Colloque de la SADC – Panel 2 (12 décembre 2025)</h5>
-                            <p class="card-text">Résumé court de la conférence ou panel.</p>
-                            <p class="card-meta">Durée : 02h47</p>
-                        </div>
-                    </div>
-                </div> -->
-
+                <!-- Vidéo 3 -->
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100">
                         <div class="video-container">
-                            <!-- Miniature à la place de l’iframe -->
                             <img src="./assets/Logo de la SADC.png" alt="Miniature conférence" class="img-fluid rounded futuristic-thumbnail">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Colloque de la SADC – Panel 1 (12 décembre 2025)</h5>
-                            <p class="card-text">Résumé court de la conférence.</p>
-                            <p class="card-meta">Durée : 04h02</p>
-                            <!-- Bouton vers YouTube -->
-                            <a href="https://www.youtube.com/watch?v=m-b2nUVpsqo" target="_blank" class="btn btn-custom">Voir sur YouTube</a>
+                            <h5 class="card-title" data-i18n="mediatheque-video3-title">Colloque de la SADC – Panel 1 (12 décembre 2025)</h5>
+                            <p class="card-text" data-i18n="mediatheque-video3-summary">Résumé court de la conférence.</p>
+                            <p class="card-meta" data-i18n="mediatheque-video3-duration">Durée : 04h02</p>
+                            <a href="https://www.youtube.com/watch?v=m-b2nUVpsqo" target="_blank" class="btn btn-custom" data-i18n="mediatheque-watch">Voir sur YouTube</a>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
+
 
     <!-- Section Événements -->
     <section id="evenements" class="py-5 evenements-section">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title">Événements</h2>
-                <p class="section-subtitle">Agenda académique : à venir et passés</p>
+                <h2 class="section-title" data-i18n="evenements-title">Événements</h2>
+                <p class="section-subtitle" data-i18n="evenements-subtitle">Agenda académique : à venir et passés</p>
             </div>
 
             <!-- Événements à venir -->
             <div class="mb-5">
-                <h3 class="sub-block-title">À venir</h3>
+                <h3 class="sub-block-title" data-i18n="evenements-upcoming">À venir</h3>
                 <div class="row">
                     <div class="col-md-6 mb-4">
                         <div class="card futuristic-card h-100">
                             <div class="card-body">
-                                <h5 class="card-title">Colloque sur la ZLECAf</h5>
-                                <p class="card-text">Discussion sur les enjeux du libre-échange africain.</p>
-                                <p class="card-meta">Date : 20 avril 2026 | Lieu : Yaoundé</p>
+                                <h5 class="card-title" data-i18n="evenements-upcoming1-title">Colloque sur la ZLECAf</h5>
+                                <p class="card-text" data-i18n="evenements-upcoming1-summary">Discussion sur les enjeux du libre-échange africain.</p>
+                                <p class="card-meta" data-i18n="evenements-upcoming1-meta">Date : 20 avril 2026 | Lieu : Yaoundé</p>
                                 <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Colloque+ZLECAf&dates=20260420T090000/20260420T120000&details=Discussion+sur+les+enjeux+du+libre-échange+africain&location=Yaoundé"
-                                        target="_blank" class="btn btn-custom">
-                                        Ajouter au calendrier
-                                    </a>
+                                    target="_blank" class="btn btn-custom" data-i18n="evenements-add-calendar">
+                                    Ajouter au calendrier
+                                </a>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-6 mb-4">
                         <div class="card futuristic-card h-100">
                             <div class="card-body">
-                                <h5 class="card-title">Conférence sur le droit communautaire</h5>
-                                <p class="card-text">Approches comparées et perspectives africaines.</p>
-                                <p class="card-meta">Date : 10 mai 2026 | Lieu : Douala</p>
-                                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Colloque+ZLECAf&dates=20260420T090000/20260420T120000&details=Discussion+sur+les+enjeux+du+libre-échange+africain&location=Yaoundé"
-                                        target="_blank" class="btn btn-custom">
-                                        Ajouter au calendrier
-                                    </a>
+                                <h5 class="card-title" data-i18n="evenements-upcoming2-title">Conférence sur le droit communautaire</h5>
+                                <p class="card-text" data-i18n="evenements-upcoming2-summary">Approches comparées et perspectives africaines.</p>
+                                <p class="card-meta" data-i18n="evenements-upcoming2-meta">Date : 10 mai 2026 | Lieu : Douala</p>
+                                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Conference+Droit+Communautaire&dates=20260510T090000/20260510T120000&details=Approches+comparées+et+perspectives+africaines&location=Douala"
+                                    target="_blank" class="btn btn-custom" data-i18n="evenements-add-calendar">
+                                    Ajouter au calendrier
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -412,25 +292,26 @@
 
             <!-- Événements passés -->
             <div>
-                <h3 class="sub-block-title">Passés</h3>
+                <h3 class="sub-block-title" data-i18n="evenements-past">Passés</h3>
                 <div class="row">
                     <div class="col-md-6 mb-4">
                         <div class="card futuristic-card h-100">
                             <div class="card-body">
-                                <h5 class="card-title">Panel sur l’intégration africaine</h5>
-                                <p class="card-text">Débat sur les institutions régionales.</p>
-                                <p class="card-meta">Date : 15 mars 2026 | Lieu : Yaoundé</p>
-                                <a href="https://www.youtube.com/watch?v=m-b2nUVpsqo" target="_blank" class="btn btn-custom">Replay</a>
+                                <h5 class="card-title" data-i18n="evenements-past1-title">Panel sur l’intégration africaine</h5>
+                                <p class="card-text" data-i18n="evenements-past1-summary">Débat sur les institutions régionales.</p>
+                                <p class="card-meta" data-i18n="evenements-past1-meta">Date : 15 mars 2026 | Lieu : Yaoundé</p>
+                                <a href="https://www.youtube.com/watch?v=m-b2nUVpsqo" target="_blank" class="btn btn-custom" data-i18n="evenements-replay">Replay</a>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-6 mb-4">
                         <div class="card futuristic-card h-100">
                             <div class="card-body">
-                                <h5 class="card-title">Séminaire sur la gouvernance</h5>
-                                <p class="card-text">Analyse des défis institutionnels.</p>
-                                <p class="card-meta">Date : 28 février 2026 | Lieu : Douala</p>
-                                <a href="#" class="btn btn-custom">Documents</a>
+                                <h5 class="card-title" data-i18n="evenements-past2-title">Séminaire sur la gouvernance</h5>
+                                <p class="card-text" data-i18n="evenements-past2-summary">Analyse des défis institutionnels.</p>
+                                <p class="card-meta" data-i18n="evenements-past2-meta">Date : 28 février 2026 | Lieu : Douala</p>
+                                <a href="#" class="btn btn-custom" data-i18n="evenements-documents">Documents</a>
                             </div>
                         </div>
                     </div>
@@ -440,25 +321,26 @@
         </div>
     </section>
 
+
     <!-- Section Intervenants -->
     <section id="intervenants" class="py-5 intervenants-section">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title">Intervenants</h2>
-                <p class="section-subtitle">Professeurs, chercheurs et praticiens</p>
+                <h2 class="section-title" data-i18n="intervenants-title">Intervenants</h2>
+                <p class="section-subtitle" data-i18n="intervenants-subtitle">Professeurs, chercheurs et praticiens</p>
             </div>
 
             <div class="row">
                 <!-- Intervenant 1 -->
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100 text-center">
-                        <img src="./assets/img.jpg" alt="Photo intervenant" 
-                            class="img-fluid rounded-circle mx-auto mt-3 futuristic-thumbnail" 
+                        <img src="./assets/img.jpg" alt="Photo intervenant"
+                            class="img-fluid rounded-circle mx-auto mt-3 futuristic-thumbnail"
                             style="width:150px; height:150px;">
                         <div class="card-body">
-                            <h5 class="card-title">Pr. Jean Dupont</h5>
-                            <p class="card-text">Professeur de droit communautaire</p>
-                            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#profilJeanDupont">
+                            <h5 class="card-title" data-i18n="intervenant1-name">Pr. Jean Dupont</h5>
+                            <p class="card-text" data-i18n="intervenant1-role">Professeur de droit communautaire</p>
+                            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#profilJeanDupont" data-i18n="intervenant-view-profile">
                                 Voir profil
                             </button>
                         </div>
@@ -468,13 +350,13 @@
                 <!-- Intervenant 2 -->
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100 text-center">
-                        <img src="./assets/img.jpg" alt="Photo intervenant" 
-                            class="img-fluid rounded-circle mx-auto mt-3 futuristic-thumbnail" 
+                        <img src="./assets/img.jpg" alt="Photo intervenant"
+                            class="img-fluid rounded-circle mx-auto mt-3 futuristic-thumbnail"
                             style="width:150px; height:150px;">
                         <div class="card-body">
-                            <h5 class="card-title">Dr. Amina Koné</h5>
-                            <p class="card-text">Chercheuse en intégration africaine</p>
-                            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#profilAminaKone">
+                            <h5 class="card-title" data-i18n="intervenant2-name">Dr. Amina Koné</h5>
+                            <p class="card-text" data-i18n="intervenant2-role">Chercheuse en intégration africaine</p>
+                            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#profilAminaKone" data-i18n="intervenant-view-profile">
                                 Voir profil
                             </button>
                         </div>
@@ -484,14 +366,14 @@
                 <!-- Intervenant 3 -->
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100 text-center">
-                        <img src="./assets/img.jpg" alt="Photo intervenant" 
-                            class="img-fluid rounded-circle mx-auto mt-3 futuristic-thumbnail" 
+                        <img src="./assets/img.jpg" alt="Photo intervenant"
+                            class="img-fluid rounded-circle mx-auto mt-3 futuristic-thumbnail"
                             style="width:150px; height:150px;">
                         <div class="card-body">
-                            <h5 class="card-title">Me. Samuel Nguema</h5>
-                            <p class="card-text">Avocat en droit des affaires</p>
-                            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#profilSamuelNguema">
-                            Voir profil
+                            <h5 class="card-title" data-i18n="intervenant3-name">Me. Samuel Nguema</h5>
+                            <p class="card-text" data-i18n="intervenant3-role">Avocat en droit des affaires</p>
+                            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#profilSamuelNguema" data-i18n="intervenant-view-profile">
+                                Voir profil
                             </button>
                         </div>
                     </div>
@@ -500,59 +382,63 @@
         </div>
     </section>
 
+
     <!-- Modales -->
+    <!-- Modal Jean Dupont -->
     <div class="modal fade" id="profilJeanDupont" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content futuristic-modal">
                 <div class="modal-header">
-                    <h5 class="modal-title">Pr. Jean Dupont</h5>
+                    <h5 class="modal-title" data-i18n="intervenant1-name">Pr. Jean Dupont</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <p><strong>Fonction :</strong> Professeur de droit communautaire, Université de Yaoundé II.</p>
-                    <p><strong>Domaines :</strong> Intégration africaine, gouvernance régionale.</p>
-                    <p><strong>Publications :</strong> Ouvrages sur la ZLECAf et le droit communautaire.</p>
+                    <p data-i18n="intervenant1-fonction"><strong>Fonction :</strong> Professeur de droit communautaire, Université de Yaoundé II.</p>
+                    <p data-i18n="intervenant1-domaines"><strong>Domaines :</strong> Intégration africaine, gouvernance régionale.</p>
+                    <p data-i18n="intervenant1-publications"><strong>Publications :</strong> Ouvrages sur la ZLECAf et le droit communautaire.</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-custom" data-bs-dismiss="modal" data-i18n="modal-close">Fermer</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Modal Amina Koné -->
     <div class="modal fade" id="profilAminaKone" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content futuristic-modal">
                 <div class="modal-header">
-                    <h5 class="modal-title">Dr. Amina Koné</h5>
+                    <h5 class="modal-title" data-i18n="intervenant2-name">Dr. Amina Koné</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <p><strong>Fonction :</strong> Chercheuse en intégration africaine.</p>
-                    <p><strong>Domaines :</strong> ZLECAf, coopération régionale.</p>
-                    <p><strong>Publications :</strong> Articles sur l’intégration économique africaine.</p>
+                    <p data-i18n="intervenant2-fonction"><strong>Fonction :</strong> Chercheuse en intégration africaine.</p>
+                    <p data-i18n="intervenant2-domaines"><strong>Domaines :</strong> ZLECAf, coopération régionale.</p>
+                    <p data-i18n="intervenant2-publications"><strong>Publications :</strong> Articles sur l’intégration économique africaine.</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-custom" data-bs-dismiss="modal" data-i18n="modal-close">Fermer</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Modal Samuel Nguema -->
     <div class="modal fade" id="profilSamuelNguema" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content futuristic-modal">
                 <div class="modal-header">
-                    <h5 class="modal-title">Me. Samuel Nguema</h5>
+                    <h5 class="modal-title" data-i18n="intervenant3-name">Me. Samuel Nguema</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <p><strong>Fonction :</strong> Avocat spécialisé en droit des affaires africain.</p>
-                    <p><strong>Domaines :</strong> Droit commercial, arbitrage international.</p>
-                    <p><strong>Publications :</strong> Études sur la gouvernance économique.</p>
+                    <p data-i18n="intervenant3-fonction"><strong>Fonction :</strong> Avocat spécialisé en droit des affaires africain.</p>
+                    <p data-i18n="intervenant3-domaines"><strong>Domaines :</strong> Droit commercial, arbitrage international.</p>
+                    <p data-i18n="intervenant3-publications"><strong>Publications :</strong> Études sur la gouvernance économique.</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-custom" data-bs-dismiss="modal" data-i18n="modal-close">Fermer</button>
                 </div>
             </div>
         </div>
@@ -562,8 +448,8 @@
     <section id="thematiques" class="py-5 thematiques-section">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title">Thématiques</h2>
-                <p class="section-subtitle">Explorez nos domaines de recherche et d’action</p>
+                <h2 class="section-title" data-i18n="thematiques-title">Thématiques</h2>
+                <p class="section-subtitle" data-i18n="thematiques-subtitle">Explorez nos domaines de recherche et d’action</p>
             </div>
 
             <div class="row">
@@ -571,9 +457,9 @@
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100 text-center">
                         <div class="card-body">
-                            <h5 class="card-title">Droit communautaire</h5>
-                            <p class="card-text">Études sur les institutions régionales et leur fonctionnement.</p>
-                            <a href="#" class="btn btn-custom">Découvrir</a>
+                            <h5 class="card-title" data-i18n="thematiques1-title">Droit communautaire</h5>
+                            <p class="card-text" data-i18n="thematiques1-summary">Études sur les institutions régionales et leur fonctionnement.</p>
+                            <a href="#" class="btn btn-custom" data-i18n="thematiques-discover">Découvrir</a>
                         </div>
                     </div>
                 </div>
@@ -582,9 +468,9 @@
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100 text-center">
                         <div class="card-body">
-                            <h5 class="card-title">ZLECAf</h5>
-                            <p class="card-text">Analyse des enjeux du libre-échange africain.</p>
-                            <a href="#" class="btn btn-custom">Découvrir</a>
+                            <h5 class="card-title" data-i18n="thematiques2-title">ZLECAf</h5>
+                            <p class="card-text" data-i18n="thematiques2-summary">Analyse des enjeux du libre-échange africain.</p>
+                            <a href="#" class="btn btn-custom" data-i18n="thematiques-discover">Découvrir</a>
                         </div>
                     </div>
                 </div>
@@ -593,23 +479,22 @@
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100 text-center">
                         <div class="card-body">
-                            <h5 class="card-title">Gouvernance</h5>
-                            <p class="card-text">Réflexions sur la gouvernance économique et institutionnelle.</p>
-                            <a href="#" class="btn btn-custom">Découvrir</a>
+                            <h5 class="card-title" data-i18n="thematiques3-title">Gouvernance</h5>
+                            <p class="card-text" data-i18n="thematiques3-summary">Réflexions sur la gouvernance économique et institutionnelle.</p>
+                            <a href="#" class="btn btn-custom" data-i18n="thematiques-discover">Découvrir</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Ligne suivante -->
             <div class="row">
                 <!-- Thématique 4 -->
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100 text-center">
                         <div class="card-body">
-                            <h5 class="card-title">Intégration africaine</h5>
-                            <p class="card-text">Approches comparées et perspectives continentales.</p>
-                            <a href="#" class="btn btn-custom">Découvrir</a>
+                            <h5 class="card-title" data-i18n="thematiques4-title">Intégration africaine</h5>
+                            <p class="card-text" data-i18n="thematiques4-summary">Approches comparées et perspectives continentales.</p>
+                            <a href="#" class="btn btn-custom" data-i18n="thematiques-discover">Découvrir</a>
                         </div>
                     </div>
                 </div>
@@ -618,9 +503,9 @@
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100 text-center">
                         <div class="card-body">
-                            <h5 class="card-title">Développement durable</h5>
-                            <p class="card-text">Lien entre droit communautaire et durabilité.</p>
-                            <a href="#" class="btn btn-custom">Découvrir</a>
+                            <h5 class="card-title" data-i18n="thematiques5-title">Développement durable</h5>
+                            <p class="card-text" data-i18n="thematiques5-summary">Lien entre droit communautaire et durabilité.</p>
+                            <a href="#" class="btn btn-custom" data-i18n="thematiques-discover">Découvrir</a>
                         </div>
                     </div>
                 </div>
@@ -629,9 +514,9 @@
                 <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100 text-center">
                         <div class="card-body">
-                            <h5 class="card-title">Arbitrage international</h5>
-                            <p class="card-text">Études sur la résolution des litiges commerciaux.</p>
-                            <a href="#" class="btn btn-custom">Découvrir</a>
+                            <h5 class="card-title" data-i18n="thematiques6-title">Arbitrage international</h5>
+                            <p class="card-text" data-i18n="thematiques6-summary">Études sur la résolution des litiges commerciaux.</p>
+                            <a href="#" class="btn btn-custom" data-i18n="thematiques-discover">Découvrir</a>
                         </div>
                     </div>
                 </div>
@@ -639,40 +524,41 @@
         </div>
     </section>
 
+
     <!-- Section Contact -->
     <section id="contact" class="py-5 contact-section">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title">Contact</h2>
-                <p class="section-subtitle">Restons connectés</p>
+                <h2 class="section-title" data-i18n="contact-title">Contact</h2>
+                <p class="section-subtitle" data-i18n="contact-subtitle">Restons connectés</p>
             </div>
 
             <div class="row">
-            <!-- Formulaire -->
+                <!-- Formulaire -->
                 <div class="col-md-6">
                     <div class="card futuristic-card p-4">
-                        <h5 class="card-title text-center mb-4">Envoyer un message</h5>
+                        <h5 class="card-title text-center mb-4" data-i18n="contact-form-title">Envoyer un message</h5>
                         <form action="mailto:contact@sadc-ascl.com" method="post" enctype="text/plain">
                             <div class="mb-3">
-                                <label for="nom" class="form-label text-white">Nom complet</label>
+                                <label for="nom" class="form-label text-white" data-i18n="contact-form-name">Nom complet</label>
                                 <input type="text" class="form-control futuristic-input" id="nom" name="Nom" required>
                             </div>
                             <div class="mb-3">
-                                <label for="email" class="form-label text-white">Adresse email</label>
+                                <label for="email" class="form-label text-white" data-i18n="contact-form-email">Adresse email</label>
                                 <input type="email" class="form-control futuristic-input" id="email" name="Email" required>
                             </div>
                             <div class="mb-3">
-                                <label for="message" class="form-label text-white">Message</label>
+                                <label for="message" class="form-label text-white" data-i18n="contact-form-message">Message</label>
                                 <textarea class="form-control futuristic-input" id="message" name="Message" rows="4" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-custom w-100">Envoyer</button>
+                            <button type="submit" class="btn btn-custom w-100" data-i18n="contact-form-send">Envoyer</button>
                         </form>
                     </div>
                 </div>
 
                 <!-- Réseaux sociaux -->
                 <div class="col-md-6 text-center d-flex flex-column justify-content-center">
-                    <h5 class="mb-4 text-white">Suivez-nous</h5>
+                    <h5 class="mb-4 text-white" data-i18n="contact-social-title">Suivez-nous</h5>
                     <div class="social-icons">
                         <a href="https://www.linkedin.com" target="_blank" class="social-link"><i class="bi bi-linkedin"></i></a>
                         <a href="https://www.youtube.com" target="_blank" class="social-link"><i class="bi bi-youtube"></i></a>
@@ -680,33 +566,15 @@
                         <a href="https://www.instagram.com" target="_blank" class="social-link"><i class="bi bi-instagram"></i></a>
                         <a href="https://www.facebook.com" target="_blank" class="social-link"><i class="bi bi-facebook"></i></a>
                     </div>
-                    <h6 class="mb-2 text-white">© <span id="currentYear">2026</span> SADC-ASCL. Tous droits réservés.</h6>
+                    <h6 class="mb-2 text-white" data-i18n="contact-footer">© <span id="currentYear">2026</span> SADC-ASCL. Tous droits réservés.</h6>
                 </div>
-
-                <!-- Pied de page -->
-                <!-- <footer class="footer-section py-4">
-                    <div class="container text-center">
-                        <p class="mb-2 text-white">© <span id="currentYear"></span> SADC-ASCL. Tous droits réservés.</p>
-                        <div class="social-icons mb-2">
-                            <a href="https://www.linkedin.com" target="_blank" class="social-link"><i class="bi bi-linkedin"></i></a>
-                            <a href="https://www.youtube.com" target="_blank" class="social-link"><i class="bi bi-youtube"></i></a>
-                            <a href="https://twitter.com" target="_blank" class="social-link"><i class="bi bi-twitter"></i></a>
-                            <a href="https://www.instagram.com" target="_blank" class="social-link"><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.facebook.com" target="_blank" class="social-link"><i class="bi bi-facebook"></i></a>
-                        </div>
-                        <p class="footer-note">Conçu avec passion et vision futuriste.</p>
-                    </div>
-                </footer> -->
             </div>
         </div>
     </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Script pour l'année automatique -->
-    <!-- <script>
-        document.getElementById("currentYear").textContent = new Date().getFullYear();
-    </script> -->
+    <script src="./js/script.js"></script>
 
 </body>
 </html>
