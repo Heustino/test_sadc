@@ -6,7 +6,7 @@
     "hero-btn-conferences": "Voir les conférences",
 
     "accueil": "Accueil",
-    "apropos": "À propos",
+    "apropos": "À propos de nous",
     "revue": "Revue",
     "comite-scientifique": "Comité scientifique",
     "comite-redaction": "Comité de rédaction",
@@ -130,7 +130,63 @@
     "contact-form-message": "Message",
     "contact-form-send": "Envoyer",
     "contact-social-title": "Suivez-nous",
-    "contact-footer": "© 2026 SADC-ASCL. Tous droits réservés."
+    "contact-footer": "© 2026 SADC-ASCL. Tous droits réservés.",
+
+    "mission-title": "Notre mission",
+    "mission-subtitle": "Promouvoir la recherche académique et le dialogue scientifique sur le droit communautaire et l’intégration africaine.",
+
+    "vision-title": "Notre vision",
+    "vision-subtitle": "Construire un espace académique innovant, multilingue et inclusif, au service des chercheurs, praticiens et institutions africaines.",
+
+    "valeurs-title": "Nos valeurs",
+    "valeurs-subtitle": "Les principes qui guident notre action académique et institutionnelle.",
+    "valeur1-title": "Innovation",
+    "valeur1-text": "Nous intégrons des solutions numériques futuristes pour transformer la recherche.",
+    "valeur2-title": "Collaboration",
+    "valeur2-text": "Nous favorisons les partenariats académiques et institutionnels.",
+    "valeur3-title": "Diversité linguistique",
+    "valeur3-text": "Nous rendons nos contenus accessibles en plusieurs langues.",
+    "valeur4-title": "Impact social",
+    "valeur4-text": "Nous contribuons à une gouvernance durable et inclusive.",
+
+    "historique-title": "Notre histoire",
+    "historique-subtitle": "Les étapes clés qui ont marqué la naissance et l’évolution de notre plateforme.",
+    "historique-2025-date": "2025",
+    "historique-2025-text": "Lancement de l’initiative académique SADC-ASCL.",
+    "historique-2026-date": "2026",
+    "historique-2026-text": "Partenariat avec ONU Femmes et ouverture à la communauté scientifique.",
+
+    "partenariats-title": "Nos partenariats",
+    "partenariats-subtitle": "Les institutions et organisations qui nous accompagnent dans notre mission.",
+    "partenariat-onu": "ONU Femmes",
+    "partenariat-universite": "Université partenaire",
+    "partenariat-centre": "Centre de recherche",
+
+    "equipe-title": "Équipe & Gouvernance",
+    "equipe-subtitle": "Découvrez nos comités et intervenants qui portent la plateforme.",
+    "comite-scientifique-title": "Comité Scientifique",
+    "comite-redaction-title": "Comité de rédaction",
+    "comite-lecture-title": "Comité de lecture",
+    "directeur-publication": "Directeur de publication",
+    "directeur-adjoint": "Directeur de publication adjoint",
+    "secretaire-technique": "Secrétaire technique",
+    "secretaire-adjoint": "Secrétaire technique adjoint",
+    "intervenants-title": "Nos intervenants",
+    "intervenant1-name": "Nom Intervenant 1",
+    "intervenant2-name": "Nom Intervenant 2",
+    "intervenant3-name": "Nom Intervenant 3",
+
+    "engagement-title": "Rejoignez-nous",
+    "engagement-subtitle": "Participez à notre mission académique et contribuez à l’intégration africaine.",
+    "engagement-adhesion": "Adhésion",
+    "engagement-contact": "Contact",
+
+    "footer-about-text": "SADC-ASCL est une plateforme académique dédiée à la recherche et à l’intégration africaine.",
+    "footer-email": "Email",
+    "footer-email-value": "contact@sadc-ascl.com",
+    "footer-phone": "Tél",
+    "footer-phone-value": "+237 654 807 793",
+    "footer-links-title": "Liens rapides"
   },
 
   "en": {
@@ -140,7 +196,7 @@
     "hero-btn-conferences": "Watch the conferences",
 
     "accueil": "Home",
-    "apropos": "About",
+    "apropos": "About us",
     "revue": "Journal",
     "comite-scientifique": "Scientific Committee",
     "comite-redaction": "Editorial Committee",
@@ -155,7 +211,8 @@
     "adhesion": "Membership",
     "projets": "Projects",
     "formations": "Training",
-    "galerie": "Community Gallery",
+    "galerie": "Gallery",
+    "galerie-communautaristes": "Gallery Community",
     "contact": "Contact",
     "initiatives": "Initiatives",
     "communaute": "Community",
@@ -263,7 +320,63 @@
     "contact-form-message": "Message",
     "contact-form-send": "Send",
     "contact-social-title": "Follow us",
-    "contact-footer": "© 2026 SADC-ASCL. All rights reserved."
+    "contact-footer": "© 2026 SADC-ASCL. All rights reserved.",
+
+    "mission-title": "Our Mission",
+    "mission-subtitle": "Promote academic research and scientific dialogue on community law and African integration.",
+
+    "vision-title": "Our Vision",
+    "vision-subtitle": "Build an innovative, multilingual, and inclusive academic space serving African researchers, practitioners, and institutions.",
+
+    "valeurs-title": "Our Values",
+    "valeurs-subtitle": "The principles guiding our academic and institutional action.",
+    "valeur1-title": "Innovation",
+    "valeur1-text": "We integrate futuristic digital solutions to transform research.",
+    "valeur2-title": "Collaboration",
+    "valeur2-text": "We foster academic and institutional partnerships.",
+    "valeur3-title": "Linguistic Diversity",
+    "valeur3-text": "We make our content accessible in multiple languages.",
+    "valeur4-title": "Social Impact",
+    "valeur4-text": "We contribute to sustainable and inclusive governance.",
+
+    "historique-title": "Our History",
+    "historique-subtitle": "The key milestones that shaped the birth and evolution of our platform.",
+    "historique-2025-date": "2025",
+    "historique-2025-text": "Launch of the academic initiative SADC-ASCL.",
+    "historique-2026-date": "2026",
+    "historique-2026-text": "Partnership with UN Women and opening to the scientific community.",
+
+    "partenariats-title": "Our Partnerships",
+    "partenariats-subtitle": "The institutions and organizations supporting our mission.",
+    "partenariat-onu": "UN Women",
+    "partenariat-universite": "Partner University",
+    "partenariat-centre": "Research Center",
+
+    "equipe-title": "Team & Governance",
+    "equipe-subtitle": "Discover our committees and speakers who drive the platform.",
+    "comite-scientifique-title": "Scientific Committee",
+    "comite-redaction-title": "Editorial Committee",
+    "comite-lecture-title": "Review Committee",
+    "directeur-publication": "Publication Director",
+    "directeur-adjoint": "Deputy Publication Director",
+    "secretaire-technique": "Technical Secretary",
+    "secretaire-adjoint": "Deputy Technical Secretary",
+    "intervenants-title": "Our Speakers",
+    "intervenant1-name": "Speaker 1",
+    "intervenant2-name": "Speaker 2",
+    "intervenant3-name": "Speaker 3",
+
+    "engagement-title": "Join Us",
+    "engagement-subtitle": "Take part in our academic mission and contribute to African integration.",
+    "engagement-adhesion": "Membership",
+    "engagement-contact": "Contact",
+
+    "footer-about-text": "SADC-ASCL is an academic platform dedicated to research and African integration.",
+    "footer-email": "Email",
+    "footer-email-value": "contact@sadc-ascl.com",
+    "footer-phone": "Phone",
+    "footer-phone-value": "+237 654 807 793",
+    "footer-links-title": "Quick Links"
   },
 
   "sw": {
@@ -397,7 +510,63 @@
     "contact-form-message": "Ujumbe",
     "contact-form-send": "Tuma",
     "contact-social-title": "Tufuate",
-    "contact-footer": "© 2026 SADC-ASCL. Haki zote zimehifadhiwa."
+    "contact-footer": "© 2026 SADC-ASCL. Haki zote zimehifadhiwa.",
+
+    "mission-title": "Dhamira Yetu",
+    "mission-subtitle": "Kukuza utafiti wa kitaaluma na mazungumzo ya kisayansi kuhusu sheria ya jumuiya na ujumuishaji wa Afrika.",
+
+    "vision-title": "Maono Yetu",
+    "vision-subtitle": "Kujenga eneo la kitaaluma bunifu, lenye lugha nyingi na jumuishi, kwa ajili ya watafiti, wataalamu na taasisi za Afrika.",
+
+    "valeurs-title": "Thamani Zetu",
+    "valeurs-subtitle": "Kanuni zinazoongoza kazi yetu ya kitaaluma na taasisi.",
+    "valeur1-title": "Ubunifu",
+    "valeur1-text": "Tunajumuisha suluhisho za kidijitali za kisasa kubadilisha utafiti.",
+    "valeur2-title": "Ushirikiano",
+    "valeur2-text": "Tunakuza ushirikiano wa kitaaluma na taasisi.",
+    "valeur3-title": "Utofauti wa Lugha",
+    "valeur3-text": "Tunafanya maudhui yetu kupatikana kwa lugha nyingi.",
+    "valeur4-title": "Athari ya Kijamii",
+    "valeur4-text": "Tunachangia katika utawala endelevu na jumuishi.",
+
+    "historique-title": "Historia Yetu",
+    "historique-subtitle": "Hatua kuu zilizounda kuzaliwa na ukuaji wa jukwaa letu.",
+    "historique-2025-date": "2025",
+    "historique-2025-text": "Uzinduzi wa mpango wa kitaaluma SADC-ASCL.",
+    "historique-2026-date": "2026",
+    "historique-2026-text": "Ushirikiano na UN Women na kufunguliwa kwa jumuiya ya kisayansi.",
+
+    "partenariats-title": "Ushirikiano Wetu",
+    "partenariats-subtitle": "Taasisi na mashirika yanayotuunga mkono katika dhamira yetu.",
+    "partenariat-onu": "UN Women",
+    "partenariat-universite": "Chuo Kikuu Mshirika",
+    "partenariat-centre": "Kituo cha Utafiti",
+
+    "equipe-title": "Timu & Utawala",
+    "equipe-subtitle": "Gundua kamati na wazungumzaji wanaoendesha jukwaa.",
+    "comite-scientifique-title": "Kamati ya Kisayansi",
+    "comite-redaction-title": "Kamati ya Uhariri",
+    "comite-lecture-title": "Kamati ya Mapitio",
+    "directeur-publication": "Mkurugenzi wa Uchapishaji",
+    "directeur-adjoint": "Naibu Mkurugenzi wa Uchapishaji",
+    "secretaire-technique": "Katibu wa Kiufundi",
+    "secretaire-adjoint": "Naibu Katibu wa Kiufundi",
+    "intervenants-title": "Wazungumzaji Wetu",
+    "intervenant1-name": "Mzungumzaji 1",
+    "intervenant2-name": "Mzungumzaji 2",
+    "intervenant3-name": "Mzungumzaji 3",
+
+    "engagement-title": "Jiunge Nasi",
+    "engagement-subtitle": "Shiriki katika dhamira yetu ya kitaaluma na uchangie katika ujumuishaji wa Afrika.",
+    "engagement-adhesion": "Uanachama",
+    "engagement-contact": "Mawasiliano",
+
+    "footer-about-text": "SADC-ASCL ni jukwaa la kitaaluma lililojitolea kwa utafiti na ujumuishaji wa Afrika.",
+    "footer-email": "Barua pepe",
+    "footer-email-value": "contact@sadc-ascl.com",
+    "footer-phone": "Simu",
+    "footer-phone-value": "+237 654 807 793",
+    "footer-links-title": "Viungo vya Haraka"
   },
 
   "ar": {
@@ -531,7 +700,63 @@
     "contact-form-message": "رسالة",
     "contact-form-send": "إرسال",
     "contact-social-title": "تابعنا",
-    "contact-footer": "© 2026 SADC-ASCL. جميع الحقوق محفوظة."
+    "contact-footer": "© 2026 SADC-ASCL. جميع الحقوق محفوظة.",
+
+    "mission-title": "مهمتنا",
+    "mission-subtitle": "تعزيز البحث الأكاديمي والحوار العلمي حول القانون المجتمعي والتكامل الأفريقي.",
+
+    "vision-title": "رؤيتنا",
+    "vision-subtitle": "بناء فضاء أكاديمي مبتكر ومتعدد اللغات وشامل، يخدم الباحثين والممارسين والمؤسسات الأفريقية.",
+
+    "valeurs-title": "قيمنا",
+    "valeurs-subtitle": "المبادئ التي توجه عملنا الأكاديمي والمؤسسي.",
+    "valeur1-title": "الابتكار",
+    "valeur1-text": "نحن ندمج حلول رقمية مستقبلية لتحويل البحث.",
+    "valeur2-title": "التعاون",
+    "valeur2-text": "نحن نعزز الشراكات الأكاديمية والمؤسسية.",
+    "valeur3-title": "التنوع اللغوي",
+    "valeur3-text": "نجعل محتوياتنا متاحة بلغات متعددة.",
+    "valeur4-title": "الأثر الاجتماعي",
+    "valeur4-text": "نساهم في حوكمة مستدامة وشاملة.",
+
+    "historique-title": "تاريخنا",
+    "historique-subtitle": "المراحل الرئيسية التي شكلت ولادة وتطور منصتنا.",
+    "historique-2025-date": "2025",
+    "historique-2025-text": "إطلاق المبادرة الأكاديمية SADC-ASCL.",
+    "historique-2026-date": "2026",
+    "historique-2026-text": "شراكة مع هيئة الأمم المتحدة للمرأة والانفتاح على المجتمع العلمي.",
+
+    "partenariats-title": "شراكاتنا",
+    "partenariats-subtitle": "المؤسسات والمنظمات التي تدعم مهمتنا.",
+    "partenariat-onu": "هيئة الأمم المتحدة للمرأة",
+    "partenariat-universite": "الجامعة الشريكة",
+    "partenariat-centre": "مركز البحوث",
+
+    "equipe-title": "الفريق والحوكمة",
+    "equipe-subtitle": "اكتشف لجاننا والمتحدثين الذين يقودون المنصة.",
+    "comite-scientifique-title": "اللجنة العلمية",
+    "comite-redaction-title": "لجنة التحرير",
+    "comite-lecture-title": "لجنة القراءة",
+    "directeur-publication": "مدير النشر",
+    "directeur-adjoint": "نائب مدير النشر",
+    "secretaire-technique": "الأمين الفني",
+    "secretaire-adjoint": "نائب الأمين الفني",
+    "intervenants-title": "المتحدثون لدينا",
+    "intervenant1-name": "المتحدث 1",
+    "intervenant2-name": "المتحدث 2",
+    "intervenant3-name": "المتحدث 3",
+
+    "engagement-title": "انضم إلينا",
+    "engagement-subtitle": "شارك في مهمتنا الأكاديمية وساهم في التكامل الأفريقي.",
+    "engagement-adhesion": "الانضمام",
+    "engagement-contact": "اتصال",
+
+    "footer-about-text": "SADC-ASCL هي منصة أكاديمية مكرسة للبحث والتكامل الأفريقي.",
+    "footer-email": "البريد الإلكتروني",
+    "footer-email-value": "contact@sadc-ascl.com",
+    "footer-phone": "الهاتف",
+    "footer-phone-value": "+237 654 807 793",
+    "footer-links-title": "روابط سريعة"
   }
 }
 
