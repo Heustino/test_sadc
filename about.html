@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SADC-ASCL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body> 
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="overlay">
+            <div class="hero-content">
+                <h1 data-i18n="apropos">A propos de nous</h1>
+                <p data-i18n="hero-subtitle">Le hub du droit communautaire africain</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">SADC-ASCL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" data-i18n="accueil" href="/index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" data-i18n="apropos" href="">A propos de nous</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="revue" href="" role="button" data-bs-toggle="dropdown">Revue</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" data-i18n="comite-scientifique" href="">Comité scientifique</a></li>
+                            <li><a class="dropdown-item" data-i18n="comite-redaction" href="">Comité de rédaction</a></li>
+                            <li><a class="dropdown-item" data-i18n="comite-lecture" href="">Comité de lecture</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="ressources" href="" role="button" data-bs-toggle="dropdown">Ressources</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" data-i18n="mediatheque" href="">Médiathèque</a></li>
+                            <li><a class="dropdown-item" data-i18n="bibliotheque" href="">Bibliothèque</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-i18n="blog" href="">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" data-i18n="institutionnel" href="">Institutionnel</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="evenements" href="" role="button" data-bs-toggle="dropdown">Événements</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" data-i18n="evenements-permanents" href="">Permanents</a></li>
+                            <li><a class="dropdown-item" data-i18n="evenements-occasionnels" href="">Occasionnels</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="initiatives" href="" role="button" data-bs-toggle="dropdown">Initiatives</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" data-i18n="projets" href="">Projets</a></li>
+                            <li><a class="dropdown-item" data-i18n="formations" href="">Formations</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="communaute" href="" role="button" data-bs-toggle="dropdown">Communauté</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" data-i18n="adhesion" href="">Adhésion</a></li>
+                            <li><a class="dropdown-item" data-i18n="galerie-communautaristes" href="">Galerie des communautaristes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-i18n="contact" href="">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-i18n="langue" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown">🌐Langue</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('fr')">Français</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('en')">English</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('sw')">Swahili</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('ar')">العربية</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Présentation -->
+    <section id="presentation" class="py-5 about-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title" data-i18n="presentation-title">Présentation</h2>
+                <p class="section-subtitle" data-i18n="presentation-subtitle">
+                    La Société Africaine de Droit Communautaire (SADC-ASCL) est une association académique et scientifique,
+                    créée en République du Cameroun par récépissé préfectoral n° 323/2022/RDA/C19/SAAJP du 08 juin 2022.
+                    Elle est à but non lucratif, apolitique et ouverte à tous sans distinction.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 data-i18n="mission-title" class="color">Notre mission</h3>
+                    <p data-i18n="mission-text">
+                        Promouvoir le droit communautaire africain, la recherche académique et le dialogue scientifique
+                        sur l’intégration africaine.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3 data-i18n="vision-title" class="color">Notre vision</h3>
+                    <p data-i18n="vision-text">
+                        Construire un espace académique innovant, multilingue et inclusif, au service des chercheurs,
+                        praticiens et institutions africaines.
+                    </p>
+                </div>
+            </div>
+            <div class="about-values mt-4">
+                <div class="value-card">
+                    <h5 data-i18n="valeur1-title">Innovation</h5>
+                    <p data-i18n="valeur1-text">Intégrer des solutions numériques futuristes pour transformer la recherche.</p>
+                </div>
+                <div class="value-card">
+                    <h5 data-i18n="valeur2-title">Collaboration</h5>
+                    <p data-i18n="valeur2-text">Favoriser les partenariats académiques et institutionnels.</p>
+                </div>
+                <div class="value-card">
+                    <h5 data-i18n="valeur3-title">Diversité linguistique</h5>
+                    <p data-i18n="valeur3-text">Rendre nos contenus accessibles en plusieurs langues.</p>
+                </div>
+                <div class="value-card">
+                    <h5 data-i18n="valeur4-title">Impact social</h5>
+                    <p data-i18n="valeur4-text">Contribuer à une gouvernance durable et inclusive.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Textes fondateurs -->
+    <section id="textes-fondateurs" class="py-5 about-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title" data-i18n="textes-fondateurs-title">Textes fondateurs</h2>
+                <p class="section-subtitle" data-i18n="textes-fondateurs-subtitle">
+                    Découvrez les documents qui définissent notre cadre juridique et institutionnel.
+                </p>
+                <h6 class="italique" data-i18n="textes-fondateurs-click">cliquez pour télécharger</h6>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="/Docs/Statuts de la SADC - Amendés 2025.pdf" class="lien" data-i18n="statuts-fr">Statuts de la SADC (Fr)</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="/Docs/Statute of the ASCL - Amended 2025.pdf" class="lien" data-i18n="statuts-en">Statuts de la SADC (Eng)</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="/Docs/Règlement Intérieur de la SADC - Amendés 2025.pdf" class="lien" data-i18n="reglement-fr">Règlement intérieur</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="/Docs/Internal Rules and Regulations of the ASCL - Amended 2025.pdf" class="lien" data-i18n="reglement-en">Internal Rules and Regulations of the ASCL - Amended 2025</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="/Docs/AFCFTA~1.pdf" class="lien" data-i18n="afcfta">AFCFTA</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section Organisation -->
+    <section id="organisation" class="py-5 about-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title" data-i18n="organisation-title">Organisation</h2>
+                <p class="section-subtitle" data-i18n="organisation-subtitle">
+                    La SADC-ASCL est structurée autour de ses membres fondateurs, actifs et d’honneur,
+                    ainsi que d’un Bureau exécutif et de comités spécialisés.
+                </p>
+            </div>
+            <div class="committees">
+                <div class="committee-card">
+                    <h3 data-i18n="fondateurs-title">Membres fondateurs</h3>
+                    <p>
+                        <ul>
+                            <li>NKILI MBIDA Eugène Pascal Parfait</li>
+                            <li>ELLA NTOU’OU Arsène Chinois</li>
+                            <li>Moustapha FALL</li>
+                            <li>KOUOH MOUANDJO Alain-Roland</li>
+                            <li>EKO MENGUE Arsène Silvère</li>
+                            <li>Dr. GUIRAO Roland.</li>
+                        </ul>             
+                    </p>
+                </div>
+                <div class="committee-card">
+                    <h3 data-i18n="bureau-title">Bureau exécutif</h3>
+                    <h4 data-i18n="president">Président</h4>
+                    <ul>
+                        <li>Eugène Pascal Parfait NKILI MBIDA</li>
+                    </ul>
+                    <h4 data-i18n="vice-president">Vice-Présidents</h4>
+                    <ul>
+                        <li>Priscah NYOTAH (Est)</li>
+                        <li>Alyae EL BIED (Nord)</li>
+                        <li>Ilo Allaye DIALL (Ouest)</li>
+                        <li>Arsène Chinois ELLA NTOU’OU (Centre)</li>
+                    </ul>
+                    <h4 data-i18n="secretaire-general">Secrétaire Générale</h4>
+                    <ul>
+                        <li>Sanae BOUYAYACHEN</li>
+                    </ul>
+                    <h4 data-i18n="secretaire-general">Trésorier</h4>
+                    <ul>
+                        <li>Arsène EKO MENGUE</li>
+                    </ul>                    
+                </div>
+                <div class="committee-card">
+                    <h3 data-i18n="comites-title">Comités</h3>
+                    <ul>
+                        <li data-i18n="comite-scientifique">Comité scientifique</li>
+                        <li data-i18n="comite-redaction">Comité de rédaction</li>
+                        <li data-i18n="comite-lecture">Comité de lecture</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Recherche & Revue -->
+    <section id="recherche-revue" class="py-5 about-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title" data-i18n="recherche-revue-title">Recherche & Revue</h2>
+                <p class="section-subtitle" data-i18n="recherche-revue-subtitle">
+                    Nos organes académiques et scientifiques.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 data-i18n="cerdia-title">CERDIA / SRCAL</h3>
+                    <p data-i18n="cerdia-text">
+                        Centre d’Études et de Recherches en Droit de l’Intégration Africaine,
+                        créé en 2025, chargé de promouvoir la recherche et la formation en droit communautaire africain.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3 data-i18n="revue-title">Revue Africaine de Droit Communautaire (RADC / AJCL)</h3>
+                    <p data-i18n="revue-text">
+                        Revue scientifique hébergée au sein de la SADC-ASCL, dirigée par le Président fondateur
+                        et animée par un comité scientifique et technique.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Partenariats -->
+    <section id="partenariats" class="py-5 about-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title" data-i18n="partenariats-title">Nos partenariats</h2>
+                <p class="section-subtitle" data-i18n="partenariats-subtitle">
+                    Les institutions et organisations qui nous accompagnent dans notre mission.
+                </p>
+            </div>
+            <div class="partners-logos">
+                <div class="partner-card">
+                    <!-- <img src="/assets/unwomen_logo.png" alt="ONU Femmes" /> -->
+                    <p data-i18n="onu">
+                        ONU Femmes <br> (UNW)
+                    </p>
+                </div>
+                <div class="partner-card">
+                    <!-- <img src="/assets/logo uy2.jfif" alt="Université partenaire" /> -->
+                    <p data-i18n="uy">Université de Yaoundé 2 <br>(UY2)</p>
+                </div>
+                <div class="partner-card">
+                    <!-- <img src="/assets/Logo de la SADC.png" alt="Centre de recherche" /> -->
+                    <p data-i18n="cerdia">Centre de Recherches et de Documentation sur l’Intégration Africaine (CERDIA)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Adhésion -->
+    <section id="adhesion" class="py-5 about-section">
+        <div class="container text-center">
+            <h2 class="section-title" data-i18n="adhesion-title">Adhésion</h2>
+            <p class="section-subtitle" data-i18n="adhesion-subtitle">
+                Les conditions d’adhésion sont définies par nos statuts et règlements. Toute demande doit être accompagnée des pièces requises.
+            </p>
+            <ul class="list-group text-start">
+                <li class="list-group-item">
+                    <h4 data-i18n="membres-actifs">Membres actifs :</h4>
+                    <ul>
+                        <li data-i18n="actifs-adhesion">Droits d’adhésion : 5.000 F CFA (7,62 €)</li>
+                        <li data-i18n="actifs-renouvellement">Renouvelables chaque année avant le 1er février</li>
+                        <li data-i18n="actifs-contribution">Contribution annuelle :</li>
+                        <ul>
+                            <li data-i18n="actifs-doctorants">30 € (19.678 F CFA) pour les doctorants</li>
+                            <li data-i18n="actifs-professionnels">65 € (42.635 F CFA) pour les professionnels</li>
+                        </ul>
+                    </ul>
+                    <span data-i18n="actifs-delai">à verser avant le 1er septembre.</span>
+                </li>
+                <li class="list-group-item">
+                    <h4 data-i18n="membres-associes">Membres associés :</h4>
+                    <ul>
+                        <li data-i18n="associes-adhesion">Droits d’adhésion annuels 40.000 F CFA (61,03 €)</li>
+                    </ul>
+                    <span data-i18n="associes-delai">à verser avant le 1er septembre.</span>
+                </li>
+                <li class="list-group-item">
+                    <h4 data-i18n="pieces-individuels">Pièces à fournir pour les membres individuels :</h4>
+                    <ul>
+                        <li data-i18n="individuels-lettre">Lettre de demande adressée au Président</li>
+                        <li data-i18n="individuels-formulaire">Formulaire dûment rempli</li>
+                        <li data-i18n="individuels-cv">CV actualisé</li>
+                        <li data-i18n="individuels-photo">Photo récente</li>
+                        <li data-i18n="individuels-paiement">Preuve du paiement</li>
+                    </ul>
+                </li>
+                <li class="list-group-item">
+                    <h4 data-i18n="pieces-institutionnels">Pièces à fournir pour les membres institutionnels :</h4>
+                    <ul>
+                        <li data-i18n="institutionnels-lettre">Lettre officielle signée par le représentant légal</li>
+                        <li data-i18n="institutionnels-formulaire">Formulaire dûment rempli</li>
+                        <li data-i18n="institutionnels-statuts">Copie des statuts ou acte constitutif</li>
+                        <li data-i18n="institutionnels-paiement">Preuve du paiement</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="mt-4">
+                <a href="adhesion.html" class="btn-engagement" data-i18n="adhesion-form">Remplir le formulaire</a>
+                <a href="contact@sadc-ascl.com" class="btn-engagement" data-i18n="adhesion-contact">Envoyer votre dossier</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-grid">
+                    
+                <!-- Colonne 1 : Présentation -->
+                <div class="footer-col">
+                    <h5 data-i18n="footer-title">SADC-ASCL</h5>
+                    <p data-i18n="footer-description">
+                        Société Africaine de Droit Communautaire<br>
+                        Association académique et scientifique à but non lucratif.
+                    </p>
+                </div>
+
+                <!-- Colonne 2 : Coordonnées -->
+                <div class="footer-col">
+                    <h5 data-i18n="footer-coordonnees-title">Coordonnées</h5>
+                    <p data-i18n="footer-address">Siège : Douala-Akwa, Immeuble Ancien PMUC</p>
+                    <p data-i18n="footer-email">Email : <a href="mailto:contact@sadc-ascl.com" class="lien">contact@sadc-ascl.com</a></p>
+                    <p data-i18n="footer-phone">Téléphone : +237 654 807 793</p>
+                </div>
+
+                <!-- Colonne 3 : Liens rapides -->
+                <div class="footer-col">
+                    <h5 data-i18n="footer-links-title">Liens rapides</h5>
+                    <ul>
+                        <li><a href="#presentation" data-i18n="footer-link-presentation">Présentation</a></li>
+                        <li><a href="#textes-fondateurs" data-i18n="footer-link-textes">Textes fondateurs</a></li>
+                        <li><a href="#organisation" data-i18n="footer-link-organisation">Organisation</a></li>
+                        <li><a href="#recherche-revue" data-i18n="footer-link-recherche">Recherche & Revue</a></li>
+                        <li><a href="#adhesion" data-i18n="footer-link-adhesion">Adhésion</a></li>
+                        <li><a href="#partenariats" data-i18n="footer-link-partenariats">Partenariats</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 4 : Réseaux sociaux -->
+                <div class="col-md-6 text-center d-flex flex-column justify-content-center">
+                    <h5 class="mb-4 text-white" data-i18n="contact-social-title">Suivez-nous</h5>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sadc-ascl-african-society-of-community-law-3615ab246?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-link"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://youtube.com/@sadc-asclofficiel4749?si=rAg_fDlu4c8XxcBp" target="_blank" class="social-link"><i class="bi bi-youtube"></i></a>
+                        <!-- <a href="" target="_blank" class="social-link"><i class="bi bi-twitter"></i></a>
+                        <a href="" target="_blank" class="social-link"><i class="bi bi-instagram"></i></a> -->
+                        <a href="https://www.facebook.com/share/1AuuCuqL3t/" target="_blank" class="social-link"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bas de page -->
+        <div class="footer-bottom text-center mt-4">
+            <p data-i18n="footer-bottom">&copy; 2026 SADC-ASCL. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
