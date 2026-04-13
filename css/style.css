@@ -1,4 +1,129 @@
-/* Accueil */
+/* _______________________________________________________________________________________ */
+/*                                                                                         */
+/*                                         Footer du site                                  */
+/* _______________________________________________________________________________________ */
+
+/* Footer global */
+.footer-section {
+  background: rgba(15, 15, 25, 0.85);
+  backdrop-filter: blur(12px);
+  padding: 50px 20px;
+  border-top: 2px solid rgba(255, 215, 0, 0.4);
+}
+
+/* Grille */
+.footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Colonnes */
+.footer-col h5 {
+  color: #FFD700;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.footer-col p,
+.footer-col ul li a {
+  color: #ffffff;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a:hover {
+  color: #FFD700;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+/* Icônes sociales */
+.social-icons a {
+  color: #FFD700;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+  text-shadow: 0 0 15px #FFD700;
+}
+
+/* Bas de page */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 215, 0, 0.2);
+  padding-top: 15px;
+}
+
+.footer-bottom p {
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-grid {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Bandeau lumineux animé en bas du footer */
+.footer-bottom {
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 215, 0, 0.2);
+  padding-top: 15px;
+}
+
+.footer-bottom::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -200%;
+  width: 400%;
+  height: 4px;
+  background: linear-gradient(90deg, #FFD700, #b8860b, #800000, #FFD700);
+  animation: glowing-band 8s linear infinite;
+}
+
+/* Animation du bandeau */
+@keyframes glowing-band {
+  0% { left: -200%; }
+  100% { left: 100%; }
+}
+
+/* Texte du bas de page */
+.footer-bottom p {
+  position: relative;
+  color: #aaa;
+  font-size: 0.85rem;
+  margin: 0;
+  z-index: 1;
+}
+
+
+/* ______________________________________________________________________________________ */
+/*                                                                                        */
+/*                                          ACCUEIL                                       */
+/* ______________________________________________________________________________________ */
+
 /* style.css */
 body, html {
   margin: 0;
@@ -6,6 +131,15 @@ body, html {
   font-family: Arial, sans-serif;
   color: white;
   height: 100%;
+}
+
+.lien{
+  color: #fff;
+  text-decoration: none;
+}
+
+.color {
+  color: gold;
 }
  
 /* Hero Section */
@@ -66,8 +200,6 @@ p {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
-
-/* style.css */
 
 /* Navbar futuriste */
 .custom-navbar {
@@ -142,7 +274,6 @@ p {
   background: rgba(255,204,0,0.2);
   color: #ffcc00;
 }
-
 
 /* Décalage du background en mode desktop */
 @media (min-width: 992px) {
@@ -335,20 +466,6 @@ p {
   text-shadow: 0 0 10px #ffcc00;
 }
 
-/* Inputs futuristes */
-/* .futuristic-input {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid #ffcc00;
-  color: white;
-  border-radius: 8px;
-}
-
-.futuristic-input:focus {
-  background: rgba(255,255,255,0.1);
-  box-shadow: 0 0 15px #ffcc00;
-  border-color: #ffcc00;
-} */
-
 /* Modal futuriste */
 .futuristic-modal {
   background: rgba(30, 0, 0, 0.95); /* plus opaque */
@@ -443,7 +560,11 @@ p {
   text-shadow: 0 0 15px #ffcc00;
 }
 
-/* A Propos */
+/* _______________________________________________________________________________________ */
+/*                                                                                         */
+/*                                         A PROPOS                                        */
+/* _______________________________________________________________________________________ */
+
 /* Section À propos */
 .about-section {
   background: linear-gradient(135deg, rgba(20, 20, 30, 0.9), rgba(40, 0, 60, 0.8));
@@ -837,67 +958,317 @@ p {
   box-shadow: 0 6px 15px rgba(255, 215, 0, 0.4);
 }
 
-/* Section Footer global */
-.footer-section {
-  background: rgba(10, 10, 26, 0.85);
+/* Section Textes fondateurs */
+#textes-fondateurs {
+  background: linear-gradient(135deg, rgba(25, 25, 35, 0.9), rgba(50, 0, 70, 0.85));
   backdrop-filter: blur(12px);
-  padding: 40px 20px;
-  border-top: 1px solid rgba(255, 215, 0, 0.3);
+  border-radius: 12px;
+  padding: 60px 20px;
+  /* margin-bottom: 40px; */
+  border-top: 2px solid #FFD700;
+  border-bottom: 2px solid #FFD700;
 }
 
-.footer-grid {
+/* Titres */
+#textes-fondateurs .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #FFD700; /* doré */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+}
+
+#textes-fondateurs .section-subtitle {
+  font-size: 1.2rem;
+  color: #FFD700; /* doré */
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  font-weight: 500;
+}
+
+/* Liste des documents */
+#textes-fondateurs .list-group {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#textes-fondateurs .list-group-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  color: #ffffff; /* texte blanc */
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#textes-fondateurs .list-group-item:hover {
+  background: rgba(255, 215, 0, 0.15);
+  color: #FFD700; /* doré au hover */
+  transform: translateX(5px);
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.4);
+}
+
+/* Section Organisation */
+#organisation {
+  background: linear-gradient(135deg, rgba(25, 25, 35, 0.9), rgba(50, 0, 70, 0.85));
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 60px 20px;
+  /* margin-bottom: 40px; */
+  border-top: 2px solid #FFD700;
+  border-bottom: 2px solid #FFD700;
+}
+
+/* Titres */
+#organisation .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #FFD700; /* doré */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+}
+
+#organisation .section-subtitle {
+  font-size: 1.2rem;
+  color: #FFD700; /* doré */
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  font-weight: 500;
+}
+
+/* Cartes organisation */
+#organisation .committees {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
 }
 
-.footer-col h5 {
+#organisation .committee-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 215, 0, 0.4);
+  border-radius: 15px;
+  padding: 25px;
+  width: 300px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+#organisation .committee-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
+}
+
+/* Titres des cartes */
+#organisation .committee-card h3 {
   color: #FFD700;
+  font-size: 1.4rem;
   margin-bottom: 15px;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
 }
 
-.footer-col p, .footer-col ul li a {
-  color: #e0e0e0;
-  font-size: 0.95rem;
-  text-decoration: none;
+/* Texte des cartes */
+#organisation .committee-card p,
+#organisation .committee-card li {
+  color: #ffffff; /* blanc */
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
-.footer-col ul {
+/* Liste interne */
+#organisation .committee-card ul {
   list-style: none;
   padding: 0;
 }
 
-.footer-col ul li {
-  margin-bottom: 8px;
-}
-
-.social-icons a {
+#organisation .committee-card li::before {
+  content: "• ";
   color: #FFD700;
-  font-size: 1.2rem;
-  margin-right: 10px;
-  transition: all 0.3s ease;
-}
-
-.social-icons a:hover {
-  color: #fff;
-}
-
-.footer-bottom {
-  border-top: 1px solid rgba(255, 215, 0, 0.2);
-  padding-top: 15px;
-}
-
-.footer-bottom p {
-  color: #aaa;
-  font-size: 0.85rem;
+  font-weight: bold;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .footer-grid {
+  #organisation .committees {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+  }
+  #organisation .committee-card {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+/* Section Recherche & Revue */
+#recherche-revue {
+  background: linear-gradient(135deg, rgba(20, 20, 30, 0.9), rgba(40, 0, 60, 0.85));
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 60px 20px;
+  /* margin-bottom: 40px; */
+  border-top: 2px solid #FFD700;
+  border-bottom: 2px solid #FFD700;
+}
+
+/* Titres */
+#recherche-revue .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #FFD700; /* doré */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+}
+
+#recherche-revue .section-subtitle {
+  font-size: 1.2rem;
+  color: #FFD700; /* doré */
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  font-weight: 500;
+}
+
+/* Colonnes */
+#recherche-revue .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+#recherche-revue .col-md-6 {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 215, 0, 0.4);
+  border-radius: 15px;
+  padding: 25px;
+  flex: 1 1 45%;
+  min-width: 280px;
+  transition: all 0.3s ease;
+}
+
+#recherche-revue .col-md-6:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
+}
+
+/* Titres internes */
+#recherche-revue h3 {
+  color: #FFD700;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+/* Texte interne */
+#recherche-revue p {
+  color: #ffffff; /* blanc */
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #recherche-revue .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  #recherche-revue .col-md-6 {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+/* Section Adhésion */
+#adhesion {
+  background: linear-gradient(135deg, rgba(25, 25, 35, 0.9), rgba(50, 0, 70, 0.85));
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 60px 20px;
+  /* margin-bottom: 40px; */
+  border-top: 2px solid #FFD700;
+  border-bottom: 2px solid #FFD700;
+}
+
+/* Titres */
+#adhesion .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #FFD700; /* doré */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+}
+
+#adhesion .section-subtitle {
+  font-size: 1.2rem;
+  color: #FFD700; /* doré */
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  font-weight: 500;
+}
+
+/* Liste des conditions */
+#adhesion .list-group {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+}
+
+#adhesion .list-group-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 215, 0, 0.4);
+  color: #ffffff; /* blanc */
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+#adhesion .list-group-item:hover {
+  background: rgba(255, 215, 0, 0.15);
+  color: #FFD700; /* doré au hover */
+  transform: translateX(5px);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+}
+
+/* Boutons */
+#adhesion .btn-engagement {
+  background: linear-gradient(135deg, #FFD700, #b8860b);
+  color: #0a0a1a;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+#adhesion .btn-engagement:hover {
+  background: linear-gradient(135deg, #b8860b, #FFD700);
+  color: #fff;
+  box-shadow: 0 6px 15px rgba(255, 215, 0, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #adhesion .list-group {
+    width: 100%;
+  }
+  #adhesion .btn-engagement {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
   }
 }
