@@ -90,116 +90,110 @@
     <section id="adhesion" class="py-5 adhesion-section">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title">Formulaire d’adhésion</h2>
-                <p class="section-subtitle">À remplir lisiblement et à signer.</p>
+                <h2 class="section-title" data-i18n="form_title">Formulaire d’adhésion</h2>
+                <p class="section-subtitle" data-i18n="form_subtitle">À remplir lisiblement et à signer.</p>
             </div>
 
             <form class="adhesion-form futuristic-card p-4">
-                <h4 class="mb-4 text-gold"><i class="bi bi-person-fill"></i> I. Identification du demandeur</h4>
+                <h4 class="mb-4 text-gold"><i class="bi bi-person-fill"></i> 
+                    <span data-i18n="section_identification">I. Identification du demandeur</span>
+                </h4>
                 <div class="row">
                     <div class="form-group col-md-6 mb-3">
-                        <label for="nom">Nom et prénoms</label>
+                        <label for="nom" data-i18n="label_nom">Nom et prénoms</label>
                         <input type="text" id="nom" name="nom" class="form-control futuristic-input" required>
                     </div>
                     <div class="form-group col-md-6 mb-3">
-                        <label for="naissance">Date et lieu de naissance</label>
+                        <label for="naissance" data-i18n="label_naissance">Date et lieu de naissance</label>
                         <input type="text" id="naissance" name="naissance" class="form-control futuristic-input" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group col-md-6 mb-3">
-                        <label for="nationalite">Nationalité</label>
+                        <label for="nationalite" data-i18n="label_nationalite">Nationalité</label>
                         <input type="text" id="nationalite" name="nationalite" class="form-control futuristic-input" required>
                     </div>
                     <div class="form-group col-md-6 mb-3">
-                        <label for="profession">Profession / Fonction</label>
+                        <label for="profession" data-i18n="label_profession">Profession / Fonction</label>
                         <input type="text" id="profession" name="profession" class="form-control futuristic-input">
                     </div>
                 </div>
                 <div class="form-group mb-4">
-                    <label for="institution">Institution / Organisation</label>
+                    <label for="institution" data-i18n="label_institution">Institution / Organisation</label>
                     <input type="text" id="institution" name="institution" class="form-control futuristic-input">
                 </div>
-                <h4 class="mb-4 text-gold"><i class="bi bi-geo-alt-fill"></i> II. Coordonnées</h4>
+
+                <h4 class="mb-4 text-gold"><i class="bi bi-geo-alt-fill"></i> 
+                    <span data-i18n="section_coordonnees">II. Coordonnées</span>
+                </h4>
                 <div class="row">
                     <div class="form-group col-md-6 mb-3">
-                        <label for="email">Adresse e-mail</label>
+                        <label for="email" data-i18n="label_email">Adresse e-mail</label>
                         <input type="email" id="email" name="email" class="form-control futuristic-input" required>
                     </div>
                     <div class="form-group col-md-6 mb-3">
-                        <label for="telephone">Téléphone</label>
+                        <label for="telephone" data-i18n="label_telephone">Téléphone</label>
                         <input type="tel" id="telephone" name="telephone" class="form-control futuristic-input">
                     </div>
                 </div>
                 <div class="form-group mb-4">
-                    <label for="adresse">Adresse complète</label>
+                    <label for="adresse" data-i18n="label_adresse">Adresse complète</label>
                     <input type="text" id="adresse" name="adresse" class="form-control futuristic-input" required>
                 </div>
-                <h4 class="mb-4 text-gold"><i class="bi bi-check-circle-fill"></i> III. Type d’adhésion</h4>
+
+                <h4 class="mb-4 text-gold"><i class="bi bi-check-circle-fill"></i> 
+                    <span data-i18n="section_adhesion">III. Type d’adhésion</span>
+                </h4>
                 <div class="membership-tabs mb-5">
                     <input type="radio" id="type-individuel" name="type_adhesion" value="individuel" required>
-                    <label for="type-individuel">Membre individuel</label>
+                    <label for="type-individuel" data-i18n="adhesion_individuel">Membre individuel</label>
 
                     <input type="radio" id="type-institutionnel" name="type_adhesion" value="institutionnel">
-                    <label for="type-institutionnel">Membre institutionnel</label>
+                    <label for="type-institutionnel" data-i18n="adhesion_institutionnel">Membre institutionnel</label>
 
                     <input type="radio" id="type-associe" name="type_adhesion" value="associe">
-                    <label for="type-associe">Membre associé</label>
+                    <label for="type-associe" data-i18n="adhesion_associe">Membre associé</label>
                 </div>
-                <h4 class="mb-4 text-gold"><i class="bi bi-credit-card-fill"></i> IV. Informations pour le règlement</h4>
+
+                <h4 class="mb-4 text-gold"><i class="bi bi-credit-card-fill"></i> 
+                    <span data-i18n="section_paiement">IV. Informations pour le règlement</span>
+                </h4>
                 <div class="payment-info-block p-4 mb-4 border-gold">
                     <div class="row">
                         <div class="col-md-6 border-end-gold">
-                            <h6 class="text-uppercase text-white mb-3">Virement Bancaire</h6>
-                            <p class="small mb-1"><span class="color">Banque:</span> BANGE BANK CAMEROUN</p>
-                            <p class="small mb-1"><span class="color">IBAN:</span> CM21 10040 01007 38201075501 42</p>
-                            <p class="small"><span class="color">SWIFT:</span> NAGCCMCM</p>
+                            <h6 class="text-uppercase text-white mb-3" data-i18n="paiement_virement">Virement Bancaire</h6>
+                            <p class="small mb-1"><span class="color" data-i18n="label_banque">Banque:</span> BANGE BANK CAMEROUN</p>
+                            <p class="small mb-1"><span class="color" data-i18n="label_iban">IBAN:</span> CM21 10040 01007 38201075501 42</p>
+                            <p class="small"><span class="color" data-i18n="label_swift">SWIFT:</span> NAGCCMCM</p>
                         </div>
                         <div class="col-md-6 ps-md-4">
-                            <h6 class="text-uppercase text-white mb-3">Paiement Mobile</h6>
-                            <p class="small mb-1"><span class="color">Orange Money:</span> +237 699 481 519</p>
-                            <p class="small mb-1"><span class="color">Bénéficiaire:</span> EKO MENGUE</p>                            
-                            <p class="small mb-1"><span class="color">Note:</span> Veuillez joindre la preuve de transfert.</p>
+                            <h6 class="text-uppercase text-white mb-3" data-i18n="paiement_mobile">Paiement Mobile</h6>
+                            <p class="small mb-1"><span class="color" data-i18n="label_orange">Orange Money:</span> +237 699 481 519</p>
+                            <p class="small mb-1"><span class="color" data-i18n="label_beneficiaire">Bénéficiaire:</span> EKO MENGUE</p>                            
+                            <p class="small mb-1"><span class="color" data-i18n="label_note">Note:</span> Veuillez joindre la preuve de transfert.</p>
                         </div>
                     </div>
                 </div>
-                <h4 class="mb-4 text-gold"><i class="bi bi-file-earmark-text-fill"></i> V. Motivation</h4>
+
+                <h4 class="mb-4 text-gold"><i class="bi bi-file-earmark-text-fill"></i> 
+                    <span data-i18="section_motivation">V. Motivation</span>
+                </h4>
                 <div class="form-group mb-4">
-                    <label for="motivation">Lettre de motivation (en quelques mots)</label>
+                    <label for="motivation" data-i18n="label_motivation">Lettre de motivation (en quelques mots)</label>
                     <textarea id="motivation" name="motivation" class="form-control futuristic-input" rows="3" required></textarea>
                 </div>
 
-                <!-- Boutons -->
                 <div class="form-actions text-center">
-                    <button type="submit" class="btn-engagement">Valider</button>
-                    <!-- <button type="button" id="btnSendMail" class="btn-engagement">Envoyer mail</button> -->
+                    <button type="submit" class="btn-engagement" data-i18n="btn_valider">Valider</button>
                 </div>
             </form>
         </div>
     </section>
 
-    <div id="confirmMailModal" class="modal-futuristic">
-        <div class="modal-content-futuristic">
-            <div class="modal-header-futuristic">
-                <h3 class="text-gold"><i class="bi bi-envelope-check"></i> Confirmation d'envoi</h3>
-            </div>
-            <div class="modal-body-futuristic">
-                <p>Votre fiche d'adhésion PDF a été générée.</p>
-                <p class="small mb-1"><span class="color">⚠️ Note:</span> N'oubliez pas de joindre le PDF téléchargé et vos pièces justificatives (CV, CNI, Photo, Paiement) dans votre mail.</p>
-                <p class="small text-muted"> </p>
-            </div>
-            <div class="modal-footer-futuristic">
-                <a href="mailto:cedric.nkouateba@gmail.com" class="lien">Cliquez ici pour envoyer le mail</a>
-                <button id="btnCancelMail" class="btn-cancel">Fermer</button>
-            </div>
-        </div>
-    </div>
-
     <!-- Section Footer -->
     <footer class="footer-section">
         <div class="container">
             <div class="footer-grid">
-                    
                 <!-- Colonne 1 : Présentation -->
                 <div class="footer-col">
                     <h5 data-i18n="footer-title">SADC-ASCL</h5>
@@ -230,25 +224,25 @@
                     </ul>
                 </div>
 
-                <!-- <h4 class="mb-4 text-gold"><i class="bi bi-credit-card-fill"></i>Informations pour le règlement</h4> -->
+                <!-- Colonne 4 : Paiement -->
                 <div class="payment-info-block p-4 mb-4 border-gold">
                     <div class="row">
                         <div class="col-md-6 border-end-gold">
-                            <h6 class="text-uppercase text-white mb-2" class="color">Virement Bancaire</h6>
-                            <p class="small mb-1"><span class="color">Banque:</span> BANGE BANK CAMEROUN</p>
-                            <p class="small mb-1"><span class="color">IBAN:</span> CM21 10040 01007 38201075501 42</p>
-                            <p class="small"><span class="color">SWIFT:</span> NAGCCMCM</p>
+                            <h6 class="text-uppercase text-white mb-2" data-i18n="footer-payment-bank">Virement Bancaire</h6>
+                            <p class="small mb-1"><span class="color" data-i18n="footer-bank">Banque:</span> BANGE BANK CAMEROUN</p>
+                            <p class="small mb-1"><span class="color" data-i18n="footer-iban">IBAN:</span> CM21 10040 01007 38201075501 42</p>
+                            <p class="small"><span class="color" data-i18n="footer-swift">SWIFT:</span> NAGCCMCM</p>
                         </div>
                         <div class="col-md-6 ps-md-3">
-                            <h6 class="text-uppercase text-white mb-2" class="color">Paiement Mobile</h6>
-                            <p class="small mb-1"><span class="color">Orange Money:</span> +237 699 48 15 19</p>
-                            <p class="small mb-1"><span class="color">Bénéficiaire:</span> EKO MENGUE</p>                            
-                            <p class="small mb-1"><span class="color">Note:</span> Veuillez joindre la preuve de transfert.</p>
+                            <h6 class="text-uppercase text-white mb-2" data-i18n="footer-payment-mobile">Paiement Mobile</h6>
+                            <p class="small mb-1"><span class="color" data-i18n="footer-orange">Orange Money:</span> +237 699 48 15 19</p>
+                            <p class="small mb-1"><span class="color" data-i18n="footer-beneficiaire">Bénéficiaire:</span> EKO MENGUE</p>
+                            <p class="small mb-1"><span class="color" data-i18n="footer-note">Note:</span> Veuillez joindre la preuve de transfert.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Colonne 4 : Réseaux sociaux -->
+                <!-- Colonne 5 : Réseaux sociaux -->
                 <div class="col-md-4 text-center d-flex flex-column justify-content-center">
                     <h5 class="mb-4 text-white" data-i18n="contact-social-title">Suivez-nous</h5>
                     <div class="social-icons">
@@ -268,13 +262,13 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <!-- Inclure jsPDF -->
+     <!-- Inclure jsPDF -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
     <!-- Inclure EmailJS (exemple) -->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="./js/script.js"></script>
     
