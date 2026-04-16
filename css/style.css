@@ -1188,6 +1188,11 @@ p {
   }
 }
 
+/* _______________________________________________________________________________________ */
+/*                                                                                         */
+/*                                         ADHESION                                        */
+/* _______________________________________________________________________________________ */
+
 /* Section Adhésion */
 #adhesion {
   background: linear-gradient(135deg, rgba(25, 25, 35, 0.9), rgba(50, 0, 70, 0.85));
@@ -1220,7 +1225,7 @@ p {
 
 /* Liste des conditions */
 #adhesion .list-group {
-  max-width: 700px;
+  max-width: 400px;
   margin: 0 auto 30px auto;
 }
 
@@ -1271,4 +1276,180 @@ p {
     max-width: 300px;
     margin: 10px auto;
   }
+}
+
+.adhesion-section {
+  background: rgba(25, 25, 35, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 50px;
+  color: #fff;
+}
+
+.section-title {
+  color: #FFD700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+}
+
+.section-subtitle {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.adhesion-form h4 {
+  color: #FFD700;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+.adhesion-form .form-group {
+  margin-bottom: 20px;
+}
+
+.adhesion-form label {
+  display: block;
+  font-weight: 600;
+  color: #FFD700;
+  margin-bottom: 8px;
+}
+
+.adhesion-form input,
+.adhesion-form select,
+.adhesion-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(255, 215, 0, 0.4);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.adhesion-form input:focus,
+.adhesion-form select:focus,
+.adhesion-form textarea:focus {
+  outline: none;
+  border-color: #FFD700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+.btn-engagement {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #800000, #FFD700);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-engagement:hover {
+  background: linear-gradient(90deg, #FFD700, #800000);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #FFD700;
+}
+
+/* Bordures dorées pour le bloc de paiement */
+.border-gold {
+    border: 1px solid rgba(255, 204, 0, 0.4);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+}
+
+.text-gold {
+    color: #ffcc00;
+}
+
+@media (min-width: 768px) {
+    .border-end-gold {
+        border-right: 1px solid rgba(255, 204, 0, 0.2);
+    }
+}
+
+/* ------------------------ */
+
+/* Container des onglets */
+.membership-tabs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Cacher l'input radio réel */
+.membership-tabs input[type="radio"] {
+    display: none;
+}
+
+/* Design de l'onglet (Label) */
+.membership-tabs label {
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 204, 0, 0.3);
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+/* État survolé */
+.membership-tabs label:hover {
+    background: rgba(255, 204, 0, 0.1);
+    border-color: #ffcc00;
+}
+
+/* État sélectionné (quand le radio invisible est coché) */
+.membership-tabs input[type="radio"]:checked + label {
+    background: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.4);
+}
+
+/* Design de la Modale Futuriste */
+.modal-futuristic {
+    display: none; 
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content-futuristic {
+    background: #0a0a0a;
+    border: 2px solid #FFD700;
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.3);
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    color: #fff;
+    text-align: center;
+}
+
+.text-gold { color: #FFD700; }
+
+.btn-cancel {
+    background: transparent;
+    border: 1px solid #800000;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.btn-cancel:hover {
+    background: rgba(128, 0, 0, 0.2);
+    border-color: #ff0000;
 }
