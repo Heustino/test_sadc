@@ -214,5 +214,20 @@ document.getElementById("btnSendMail").onclick = function() {
     window.location.href = `mailto:christian.nkouateba@gmail.com?subject=${subject}&body=${body}`;
 };
 
+function sendWhatsApp() {
+  const nom = document.getElementById("nom").value;
+  const message = document.getElementById("message").value;
 
+  // Numéro WhatsApp institutionnel (à remplacer par le vrai numéro)
+  const phoneNumber = "+237690634101";
+
+  // Message formaté
+  const text = `Nom: ${nom}\nMessage: ${message}`;
+
+  // URL API WhatsApp
+  const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(text)}`;
+
+  // Ouvre WhatsApp dans un nouvel onglet
+  window.open(url, "_blank");
+}
 
