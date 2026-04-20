@@ -78,19 +78,33 @@
         </div>
     </nav>
 
-    <section id="contact" class="contact-section">
-        <h2 data-i18n="contact_title">Contactez-nous</h2>
-        <form id="contactForm" class="futuristic-form">
-            <input type="text" id="nom" placeholder="Votre nom" required>
-            <input type="email" id="email" placeholder="Votre email professionnel" required>
-            <input type="text" id="sujet" placeholder="Sujet" required>
-            <textarea id="message" placeholder="Votre message" required></textarea>
+    <section id="contact" class="contact-section row">
+  
+        <!-- Bloc gauche : WhatsApp -->
+        <div class="col-md-6">
+            <h2 data-i18n="contact_whatsapp_title">Contact via WhatsApp</h2>
+            <form id="contactForm" class="futuristic-form">
+                <input type="text" id="nom" placeholder="Votre nom" required>
+                <textarea id="message" placeholder="Votre message" required></textarea>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-custom" onclick="sendWhatsApp()" data-i18n="send_whatsapp">Envoyer via WhatsApp</button>
+                </div>
+            </form>
+        </div>
 
-            <div class="form-actions">
-                <button type="button" class="btn btn-custom" onclick="sendWhatsApp()" data-i18n="send_whatsapp">Envoyer via WhatsApp</button>
-                <button type="button" class="btn btn-custom" onclick="sendEmail()" data-i18n="send_email">Envoyer par Email</button>
-            </div>
-        </form>
+        <!-- Bloc droit : Mail direct -->
+        <div class="col-md-6">
+            <h2 data-i18n="contact_mail_title">Envoyer un mail direct</h2>
+            <form action="mailto:christian.nkouateba@gmail.com" method="post" enctype="text/plain" class="futuristic-form">
+                <div class="mb-3">
+                    <input type="text" id="nom" name="Nom" class="form-control futuristic-input" placeholder="Votre nom" required>
+                </div>
+                <div class="mb-3">
+                    <textarea id="message" name="Message" class="form-control futuristic-input" rows="4" placeholder="Votre message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-custom w-100" data-i18n="send_email_direct">Envoyer par Email</button>
+            </form>
+        </div>
     </section>
 
     <!-- Section Footer -->
