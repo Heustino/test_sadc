@@ -325,7 +325,89 @@
     "label_note": "Note:",
     "section_motivation": "V. Motivation",
     "label_motivation": "Lettre de motivation (en quelques mots)",
-    "btn_valider": "Valider"
+    "btn_valider": "Valider",
+
+    "nom_nkili": "Eugène Pascal Parfait NKILI MBIDA",
+    "poste_nkili": "Président - SADC",
+    "nom_alyae": "Alyae EL BIED",
+    "poste_alyae": "Vice-Présidente - SADC",
+    "nom_sanae": "Sanae BOUYAYACHEN",
+    "poste_sanae": "Secrétaire Générale - SADC",
+    "nom_amougou": "Fabrice AMOUGOU MBARGA",
+    "poste_amougou": "Secrétaire Générale Adjoint - SADC",
+    "nom_eko": "EKO MENGUE Arsène Silvère",
+    "poste_eko": "Trésorier - SADC",
+    "nom_yusuf": "Yusuf ABDALLAH SHIKANDA",
+    "poste_yusuf": "Conseiller - SADC",
+
+    "fondateurs_title": "Fondateurs",
+    "fondateur_nkili_nom": "Eugène Pascal Parfait NKILI MBIDA",
+    "fondateur_nkili_poste": "Président - SADC",
+    "fondateur_ella_nom": "ELLA NTOU’OU Arsène Chinois",
+    "fondateur_ella_poste": "Membre Fondateur - SADC",
+    "fondateur_fall_nom": "Moustapha FALL",
+    "fondateur_fall_poste": "Membre Fondateur - SADC",
+    "fondateur_kouoh_nom": "KOUOH MOUANDJO Alain-Roland",
+    "fondateur_kouoh_poste": "Membre Fondateur - SADC",
+    "fondateur_eko_nom": "EKO MENGUE Arsène Silvère",
+    "fondateur_eko_poste": "Trésorier - SADC",
+    "fondateur_guirao_nom": "GUIRAO Roland",
+    "fondateur_guirao_poste": "Membre Fondateur - SADC",
+    "voir_plus": "Voir plus",
+    "voir_bio": "Voir ma bio",
+    "fermer": "Fermer",
+    "reseaux": "Réseaux sociaux :",
+    "titre": "Titre :",
+    "nom": "Nom :",
+
+  "bureau_title": "Bureau Exécutif",
+
+  "bureau_nkili_nom": "Eugène Pascal Parfait NKILI MBIDA",
+  "bureau_nkili_poste": "Président - SADC",
+
+  "bureau_bied_nom": "Alyae EL BIED",
+  "bureau_bied_poste": "Vice-Présidente - SADC (Nord)",
+
+  "bureau_priscah_nom": "Priscah NYOTAH",
+  "bureau_priscah_poste": "Vice-Présidente - SADC (Est)",
+
+  "bureau_diall_nom": "Ilo Allaye DIALL",
+  "bureau_diall_poste": "Vice-Président - SADC (Ouest)",
+
+  "bureau_ella_nom": "Arsène Chinois ELLA NTOU’OU",
+  "bureau_ella_poste": "Vice-Président - SADC (Centre)",
+
+  "bureau_sanae_nom": "Sanae BOUYAYACHEN",
+  "bureau_sanae_poste": "Secrétaire Générale - SADC",
+
+  "bureau_amougou_nom": "Fabrice AMOUGOU MBARGA",
+  "bureau_amougou_poste": "Secrétaire Général Adjoint - SADC",
+
+  "bureau_eko_nom": "EKO MENGUE Arsène Silvère",
+  "bureau_eko_poste": "Trésorier - SADC",
+
+  "bureau_yusuf_nom": "Yusuf ABDALLAH SHIKANDA",
+  "bureau_yusuf_poste": "Conseiller - SADC",
+
+  "label_nom": "Nom :",
+  "label_titre": "Titre :",
+  "label_reseaux": "Réseaux sociaux :",
+  "facebook": "Facebook",
+  "linkedin": "LinkedIn",
+  "voir_plus": "Voir plus",
+  "voir_bio": "Voir ma bio",
+  "fermer": "Fermer",
+
+  "nom_ano2": "Anonyme 2",
+    "directeur-publication-adjoint": "Directeur de Publication Adjoint - SADC",
+    "nom_ano4": "Anonyme 4",
+    "secretaire-technique-adjoint": "Secrétaire Technique Adjoint - SADC",
+    "voir_plus": "Voir plus",
+
+    "contact_whatsapp_title": "Contact via WhatsApp",
+    "send_whatsapp": "Envoyer via WhatsApp",
+    "contact_mail_title": "Envoyer un mail direct",
+    "send_email_direct": "Envoyer par Email"
   },
 
   "en": {
@@ -654,7 +736,89 @@
     "label_note": "Note:",
     "section_motivation": "V. Motivation",
     "label_motivation": "Motivation Letter (a few words)",
-    "btn_valider": "Submit"
+    "btn_valider": "Submit",
+
+    "nom_nkili": "Eugène Pascal Parfait NKILI MBIDA",
+    "poste_nkili": "President - SADC",
+    "nom_alyae": "Alyae EL BIED",
+    "poste_alyae": "Vice President - SADC",
+    "nom_sanae": "Sanae BOUYAYACHEN",
+    "poste_sanae": "Secretary General - SADC",
+    "nom_amougou": "Fabrice AMOUGOU MBARGA",
+    "poste_amougou": "Deputy Secretary General - SADC",
+    "nom_eko": "EKO MENGUE Arsène Silvère",
+    "poste_eko": "Treasurer - SADC",
+    "nom_yusuf": "Yusuf ABDALLAH SHIKANDA",
+    "poste_yusuf": "Advisor - SADC",
+
+    "fondateurs_title": "Founders",
+    "fondateur_nkili_nom": "Eugène Pascal Parfait NKILI MBIDA",
+    "fondateur_nkili_poste": "President - SADC",
+    "fondateur_ella_nom": "ELLA NTOU’OU Arsène Chinois",
+    "fondateur_ella_poste": "Founding Member - SADC",
+    "fondateur_fall_nom": "Moustapha FALL",
+    "fondateur_fall_poste": "Founding Member - SADC",
+    "fondateur_kouoh_nom": "KOUOH MOUANDJO Alain-Roland",
+    "fondateur_kouoh_poste": "Founding Member - SADC",
+    "fondateur_eko_nom": "EKO MENGUE Arsène Silvère",
+    "fondateur_eko_poste": "Treasurer - SADC",
+    "fondateur_guirao_nom": "GUIRAO Roland",
+    "fondateur_guirao_poste": "Founding Member - SADC",
+    "voir_plus": "See more",
+    "voir_bio": "See my bio",
+    "fermer": "Close",
+    "reseaux": "Social networks:",
+    "titre": "Title:",
+    "nom": "Name:",
+
+  "bureau_title": "Executive Board",
+
+  "bureau_nkili_nom": "Eugène Pascal Parfait NKILI MBIDA",
+  "bureau_nkili_poste": "President - SADC",
+
+  "bureau_bied_nom": "Alyae EL BIED",
+  "bureau_bied_poste": "Vice President - SADC (North)",
+
+  "bureau_priscah_nom": "Priscah NYOTAH",
+  "bureau_priscah_poste": "Vice President - SADC (East)",
+
+  "bureau_diall_nom": "Ilo Allaye DIALL",
+  "bureau_diall_poste": "Vice President - SADC (West)",
+
+  "bureau_ella_nom": "Arsène Chinois ELLA NTOU’OU",
+  "bureau_ella_poste": "Vice President - SADC (Center)",
+
+  "bureau_sanae_nom": "Sanae BOUYAYACHEN",
+  "bureau_sanae_poste": "Secretary General - SADC",
+
+  "bureau_amougou_nom": "Fabrice AMOUGOU MBARGA",
+  "bureau_amougou_poste": "Deputy Secretary General - SADC",
+
+  "bureau_eko_nom": "EKO MENGUE Arsène Silvère",
+  "bureau_eko_poste": "Treasurer - SADC",
+
+  "bureau_yusuf_nom": "Yusuf ABDALLAH SHIKANDA",
+  "bureau_yusuf_poste": "Advisor - SADC",
+
+  "label_nom": "Name:",
+  "label_titre": "Title:",
+  "label_reseaux": "Social networks:",
+  "facebook": "Facebook",
+  "linkedin": "LinkedIn",
+  "voir_plus": "See more",
+  "voir_bio": "See my bio",
+  "fermer": "Close",
+
+  "nom_ano2": "Anonymous 2",
+    "directeur-publication-adjoint": "Deputy Publishing Director - SADC",
+    "nom_ano4": "Anonymous 4",
+    "secretaire-technique-adjoint": "Deputy Technical Secretary - SADC",
+    "voir_plus": "See more",
+
+    "contact_whatsapp_title": "Contact via WhatsApp",
+    "send_whatsapp": "Send via WhatsApp",
+    "contact_mail_title": "Send a direct email",
+    "send_email_direct": "Send by Email"
   },
 
   "sw": {
@@ -982,7 +1146,89 @@
     "label_note": "Kumbuka:",
     "section_motivation": "V. Sababu",
     "label_motivation": "Barua ya Motisha (maneno machache)",
-    "btn_valider": "Wasilisha"
+    "btn_valider": "Wasilisha",
+
+    "nom_nkili": "Eugène Pascal Parfait NKILI MBIDA",
+    "poste_nkili": "Rais - SADC",
+    "nom_alyae": "Alyae EL BIED",
+    "poste_alyae": "Makamu wa Rais - SADC",
+    "nom_sanae": "Sanae BOUYAYACHEN",
+    "poste_sanae": "Katibu Mkuu - SADC",
+    "nom_amougou": "Fabrice AMOUGOU MBARGA",
+    "poste_amougou": "Naibu Katibu Mkuu - SADC",
+    "nom_eko": "EKO MENGUE Arsène Silvère",
+    "poste_eko": "Mweka Hazina - SADC",
+    "nom_yusuf": "Yusuf ABDALLAH SHIKANDA",
+    "poste_yusuf": "Mshauri - SADC",
+
+    "fondateurs_title": "Waanzilishi",
+    "fondateur_nkili_nom": "Eugène Pascal Parfait NKILI MBIDA",
+    "fondateur_nkili_poste": "Rais - SADC",
+    "fondateur_ella_nom": "ELLA NTOU’OU Arsène Chinois",
+    "fondateur_ella_poste": "Mwanachama Mwanzilishi - SADC",
+    "fondateur_fall_nom": "Moustapha FALL",
+    "fondateur_fall_poste": "Mwanachama Mwanzilishi - SADC",
+    "fondateur_kouoh_nom": "KOUOH MOUANDJO Alain-Roland",
+    "fondateur_kouoh_poste": "Mwanachama Mwanzilishi - SADC",
+    "fondateur_eko_nom": "EKO MENGUE Arsène Silvère",
+    "fondateur_eko_poste": "Mweka Hazina - SADC",
+    "fondateur_guirao_nom": "GUIRAO Roland",
+    "fondateur_guirao_poste": "Mwanachama Mwanzilishi - SADC",
+    "voir_plus": "Tazama zaidi",
+    "voir_bio": "Tazama wasifu wangu",
+    "fermer": "Funga",
+    "reseaux": "Mitandao ya kijamii:",
+    "titre": "Cheo:",
+    "nom": "Jina:",
+
+    "bureau_title": "Baraza Kuu",
+
+  "bureau_nkili_nom": "Eugène Pascal Parfait NKILI MBIDA",
+  "bureau_nkili_poste": "Rais - SADC",
+
+  "bureau_bied_nom": "Alyae EL BIED",
+  "bureau_bied_poste": "Makamu wa Rais - SADC (Kaskazini)",
+
+  "bureau_priscah_nom": "Priscah NYOTAH",
+  "bureau_priscah_poste": "Makamu wa Rais - SADC (Mashariki)",
+
+  "bureau_diall_nom": "Ilo Allaye DIALL",
+  "bureau_diall_poste": "Makamu wa Rais - SADC (Magharibi)",
+
+  "bureau_ella_nom": "Arsène Chinois ELLA NTOU’OU",
+  "bureau_ella_poste": "Makamu wa Rais - SADC (Kati)",
+
+  "bureau_sanae_nom": "Sanae BOUYAYACHEN",
+  "bureau_sanae_poste": "Katibu Mkuu - SADC",
+
+  "bureau_amougou_nom": "Fabrice AMOUGOU MBARGA",
+  "bureau_amougou_poste": "Naibu Katibu Mkuu - SADC",
+
+  "bureau_eko_nom": "EKO MENGUE Arsène Silvère",
+  "bureau_eko_poste": "Mweka Hazina - SADC",
+
+  "bureau_yusuf_nom": "Yusuf ABDALLAH SHIKANDA",
+  "bureau_yusuf_poste": "Mshauri - SADC",
+
+  "label_nom": "Jina:",
+  "label_titre": "Cheo:",
+  "label_reseaux": "Mitandao ya kijamii:",
+  "facebook": "Facebook",
+  "linkedin": "LinkedIn",
+  "voir_plus": "Tazama zaidi",
+  "voir_bio": "Tazama wasifu wangu",
+  "fermer": "Funga",
+
+  "nom_ano2": "Asiyejulikana 2",
+    "directeur-publication-adjoint": "Naibu Mkurugenzi wa Uchapishaji - SADC",
+    "nom_ano4": "Asiyejulikana 4",
+    "secretaire-technique-adjoint": "Naibu Katibu wa Kiufundi - SADC",
+    "voir_plus": "Tazama zaidi",
+
+    "contact_whatsapp_title": "Wasiliana kupitia WhatsApp",
+    "send_whatsapp": "Tuma kupitia WhatsApp",
+    "contact_mail_title": "Tuma barua pepe moja kwa moja",
+    "send_email_direct": "Tuma kwa Barua pepe"
   },
 
   "ar": {
@@ -1311,7 +1557,89 @@
     "label_note": "ملاحظة:",
     "section_motivation": "V. الدافع",
     "label_motivation": "رسالة الدافع (بضع كلمات)",
-    "btn_valider": "إرسال"
+    "btn_valider": "إرسال",
+
+    "nom_nkili": "يوجين باسكال بارفيه نكيلي مبيدا",
+    "poste_nkili": "الرئيس - SADC",
+    "nom_alyae": "ألياء البيض",
+    "poste_alyae": "نائبة الرئيس - SADC",
+    "nom_sanae": "سناء بويياشين",
+    "poste_sanae": "الأمين العام - SADC",
+    "nom_amougou": "فابريس أموجو مبارغا",
+    "poste_amougou": "نائب الأمين العام - SADC",
+    "nom_eko": "إيكو مينغو أرسين سيلفير",
+    "poste_eko": "أمين الصندوق - SADC",
+    "nom_yusuf": "يوسف عبد الله شيكاندا",
+    "poste_yusuf": "مستشار - SADC",
+
+    "fondateurs_title": "المؤسسون",
+    "fondateur_nkili_nom": "يوجين باسكال بارفيه نكيلي مبيدا",
+    "fondateur_nkili_poste": "الرئيس - SADC",
+    "fondateur_ella_nom": "أرسين شينوا إيلا نتوو",
+    "fondateur_ella_poste": "عضو مؤسس - SADC",
+    "fondateur_fall_nom": "مصطفى فال",
+    "fondateur_fall_poste": "عضو مؤسس - SADC",
+    "fondateur_kouoh_nom": "كووه موانجو ألان رولان",
+    "fondateur_kouoh_poste": "عضو مؤسس - SADC",
+    "fondateur_eko_nom": "إيكو مينغو أرسين سيلفير",
+    "fondateur_eko_poste": "أمين الصندوق - SADC",
+    "fondateur_guirao_nom": "غيراو رولان",
+    "fondateur_guirao_poste": "عضو مؤسس - SADC",
+    "voir_plus": "عرض المزيد",
+    "voir_bio": "عرض سيرتي الذاتية",
+    "fermer": "إغلاق",
+    "reseaux": "وسائل التواصل الاجتماعي:",
+    "titre": "الوظيفة:",
+    "nom": "الاسم:",
+
+    "bureau_title": "المكتب التنفيذي",
+
+  "bureau_nkili_nom": "Eugène Pascal Parfait NKILI MBIDA",
+  "bureau_nkili_poste": "الرئيس - SADC",
+
+  "bureau_bied_nom": "Alyae EL BIED",
+  "bureau_bied_poste": "نائبة الرئيس - SADC (الشمال)",
+
+  "bureau_priscah_nom": "Priscah NYOTAH",
+  "bureau_priscah_poste": "نائبة الرئيس - SADC (الشرق)",
+
+  "bureau_diall_nom": "Ilo Allaye DIALL",
+  "bureau_diall_poste": "نائب الرئيس - SADC (الغرب)",
+
+  "bureau_ella_nom": "Arsène Chinois ELLA NTOU’OU",
+  "bureau_ella_poste": "نائب الرئيس - SADC (الوسط)",
+
+  "bureau_sanae_nom": "Sanae BOUYAYACHEN",
+  "bureau_sanae_poste": "الأمين العام - SADC",
+
+  "bureau_amougou_nom": "Fabrice AMOUGOU MBARGA",
+  "bureau_amougou_poste": "نائب الأمين العام - SADC",
+
+  "bureau_eko_nom": "EKO MENGUE Arsène Silvère",
+  "bureau_eko_poste": "أمين الصندوق - SADC",
+
+  "bureau_yusuf_nom": "Yusuf ABDALLAH SHIKANDA",
+  "bureau_yusuf_poste": "مستشار - SADC",
+
+  "label_nom": "الاسم:",
+  "label_titre": "المنصب:",
+  "label_reseaux": "وسائل التواصل الاجتماعي:",
+  "facebook": "فيسبوك",
+  "linkedin": "لينكدإن",
+  "voir_plus": "المزيد",
+  "voir_bio": "عرض السيرة الذاتية",
+  "fermer": "إغلاق",
+
+  "nom_ano2": "مجهول 2",
+    "directeur-publication-adjoint": "نائب مدير النشر - SADC",
+    "nom_ano4": "مجهول 4",
+    "secretaire-technique-adjoint": "نائب السكرتير الفني - SADC",
+    "voir_plus": "المزيد",
+
+    "contact_whatsapp_title": "الاتصال عبر واتساب",
+    "send_whatsapp": "إرسال عبر واتساب",
+    "contact_mail_title": "إرسال بريد مباشر",
+    "send_email_direct": "إرسال عبر البريد الإلكتروني"
   }
 }
 
