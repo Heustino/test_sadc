@@ -1449,6 +1449,79 @@ p {
     transition: 0.3s;
 }
 
+.contact-section {
+  background: linear-gradient(135deg, #2c0a0a, #000);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
+  /* margin-top: 40px; */
+}
+
+.contact-section h2 {
+  color: gold;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px gold;
+  text-align: center;
+}
+
+/* Formulaire futuriste */
+.futuristic-form {
+  text-align: center;
+}
+
+/* Champs uniformisés */
+.futuristic-form input,
+.futuristic-form textarea,
+.futuristic-input {
+  display: block;
+  width: 95%;              /* largeur uniforme */
+  max-width: 500px;        /* limite pour éviter trop large */
+  margin: 15px auto;       /* centrage et espacement */
+  padding: 12px 15px;      /* confort de saisie */
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid gold;
+  border-radius: 10px;
+  color: white;
+  font-size: 1em;
+  box-sizing: border-box;  /* inclut padding dans la largeur */
+}
+
+/* Champ message identique pour les deux blocs */
+.futuristic-form textarea,
+.futuristic-input[type="textarea"] {
+  height: 150px;           /* hauteur fixe pour uniformité */
+  resize: none;            /* empêche le redimensionnement */
+}
+
+/* Placeholders dorés translucides */
+.futuristic-form input::placeholder,
+.futuristic-form textarea::placeholder {
+  color: rgba(255, 215, 0, 0.6);
+}
+
+/* Boutons uniformisés */
+.btn-custom {
+  background: rgba(255, 215, 0, 0.2);
+  border: 1px solid gold;
+  color: white;
+  padding: 12px 25px;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+  display: inline-block;
+  width: 95%;              /* largeur uniforme */
+  max-width: 500px;        /* limite */
+  text-align: center;
+}
+
+.btn-custom:hover {
+  background: gold;
+  color: black;
+  box-shadow: 0 0 15px gold;
+}
+
 .btn-cancel:hover {
     background: rgba(128, 0, 0, 0.2);
     border-color: #ff0000;
