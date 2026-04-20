@@ -78,7 +78,20 @@
         </div>
     </nav>
 
-    
+    <section id="contact" class="contact-section">
+        <h2 data-i18n="contact_title">Contactez-nous</h2>
+        <form id="contactForm" class="futuristic-form">
+            <input type="text" id="nom" placeholder="Votre nom" required>
+            <input type="email" id="email" placeholder="Votre email professionnel" required>
+            <input type="text" id="sujet" placeholder="Sujet" required>
+            <textarea id="message" placeholder="Votre message" required></textarea>
+
+            <div class="form-actions">
+                <button type="button" class="btn btn-custom" onclick="sendWhatsApp()" data-i18n="send_whatsapp">Envoyer via WhatsApp</button>
+                <button type="button" class="btn btn-custom" onclick="sendEmail()" data-i18n="send_email">Envoyer par Email</button>
+            </div>
+        </form>
+    </section>
 
     <!-- Section Footer -->
     <footer class="footer-section">
