@@ -1526,3 +1526,34 @@ p {
     background: rgba(128, 0, 0, 0.2);
     border-color: #ff0000;
 }
+
+.projets-section {
+  background: rgba(20, 0, 0, 0.85);
+  backdrop-filter: blur(12px);
+  border-top: 2px solid #FFD700;
+}
+
+.project-card .futuristic-card {
+  min-height: 250px;
+}
+
+.project-card .card-title {
+  color: #FFD700;
+  font-size: 1.2rem;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+.project-card .card-meta {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.project-card .card-text {
+  color: #fff;
+}
+
+.active-filter {
+  background: gold !important;
+  color: black !important;
+  box-shadow: 0 0 15px gold;
+}
