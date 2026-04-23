@@ -231,3 +231,31 @@ function sendWhatsApp() {
   window.open(url, "_blank");
 }
 
+// Sélectionner tous les boutons de filtre
+const filterButtons = document.querySelectorAll("[data-filter]");
+// Sélectionner toutes les cartes projet
+const projectCards = document.querySelectorAll(".project-card");
+
+filterButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    const filter = button.getAttribute("data-filter");
+
+    projectCards.forEach(card => {
+      // Si le filtre est "all" ou correspond à la catégorie de la carte
+      if (filter === "all" || card.getAttribute("data-category") === filter) {
+        card.style.display = "block"; // Affiche la carte
+      } else {
+        card.style.display = "none"; // Masque la carte
+      }
+    });
+  });
+});
+
+filterButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    // Retirer la classe active de tous les boutons
+    filterButtons.forEach(btn => btn.classList.remove("active-filter"));
+    // Ajouter la classe active au bouton cliqué
+    button.classList.add("active-filter");
+  });
+});
