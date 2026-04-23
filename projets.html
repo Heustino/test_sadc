@@ -78,7 +78,135 @@
         </div>
     </nav>
 
-    
+    <section id="projets" class="projets-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-4" data-i18n="projets_title">Nos Projets</h2>
+            <p class="section-subtitle text-center mb-5" data-i18n="projets_subtitle">
+                Découvrez nos initiatives académiques, juridiques et sociales
+            </p>
+
+            <!-- Filtres -->
+            <div class="text-center mb-4">
+                <button class="btn btn-custom mx-2" data-filter="all">Tous</button>
+                <button class="btn btn-custom mx-2" data-filter="juridique">Juridique</button>
+                <button class="btn btn-custom mx-2" data-filter="academique">Académique</button>
+                <button class="btn btn-custom mx-2" data-filter="social">Social</button>
+            </div>
+
+            <!-- Grille de projets -->
+            <div class="row g-4">
+                <!-- Carte projet -->
+                <div class="col-md-4 project-card" data-category="juridique">
+                    <div class="futuristic-card h-100 p-3">
+                        <h5 class="card-title">Projet Harmonisation du Droit</h5>
+                        <p class="card-meta">Statut : En cours</p>
+                        <p class="card-text">Un projet visant à harmoniser les législations communautaires africaines.</p>
+                        <button class="btn btn-custom mt-3" data-bs-toggle="modal" data-bs-target="#projet1Modal">Voir plus</button>
+                    </div>
+                </div>
+
+                <!-- Carte projet -->
+                <div class="col-md-4 project-card" data-category="academique">
+                    <div class="futuristic-card h-100 p-3">
+                        <h5 class="card-title">Programme Doctoral</h5>
+                        <p class="card-meta">Statut : À venir</p>
+                        <p class="card-text">Formation avancée pour les doctorants en droit communautaire.</p>
+                        <button class="btn btn-custom mt-3" data-bs-toggle="modal" data-bs-target="#projet2Modal">Voir plus</button>
+                    </div>
+                </div>
+
+                <!-- Carte projet -->
+                <div class="col-md-4 project-card" data-category="social">
+                    <div class="futuristic-card h-100 p-3">
+                        <h5 class="card-title">Accès au Droit</h5>
+                        <p class="card-meta">Statut : Terminé</p>
+                        <p class="card-text">Projet social pour vulgariser le droit communautaire auprès des populations.</p>
+                        <button class="btn btn-custom mt-3" data-bs-toggle="modal" data-bs-target="#projet3Modal">Voir plus</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modale Projet 1 -->
+    <div class="modal fade" id="projet1Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content futuristic-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projet Harmonisation du Droit</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                    <div class="modal-body">
+                        <p>Ce projet vise à harmoniser les législations communautaires africaines pour renforcer l’intégration juridique.</p>
+                        <p><strong>Partenaires :</strong> ONU Femmes, Université de Yaoundé II</p>
+                        <p><strong>État d’avancement :</strong></p>
+                        <!-- Barre de progression -->
+                        <div class="progress" style="height: 20px; background: rgba(255,255,255,0.1); border-radius: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 65%; background: gold; color: black; font-weight: bold;">
+                            65%
+                        </div>
+                        </div>
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modale Projet 2 -->
+    <div class="modal fade" id="projet2Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content futuristic-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title">Programme Doctoral</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ce programme doctoral vise à offrir une formation avancée aux doctorants en droit communautaire africain.</p>
+                    <p><strong>Partenaires :</strong> Université de Yaoundé II, CERDIA</p>
+                    <p><strong>État d’avancement :</strong></p>
+                    <!-- Barre de progression -->
+                    <div class="progress" style="height: 20px; background: rgba(255,255,255,0.1); border-radius: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 20%; background: gold; color: black; font-weight: bold;">
+                            20%
+                        </div>
+                    </div>
+                    <p class="mt-3"><strong>Objectifs :</strong> Renforcer les compétences académiques et favoriser la recherche collaborative.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modale Projet 3 -->
+    <div class="modal fade" id="projet3Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content futuristic-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title">Accès au Droit</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ce projet social a permis de vulgariser le droit communautaire auprès des populations locales.</p>
+                    <p><strong>Partenaires :</strong> ONG locales, associations communautaires</p>
+                    <p><strong>État d’avancement :</strong></p>
+                    <!-- Barre de progression -->
+                    <div class="progress" style="height: 20px; background: rgba(255,255,255,0.1); border-radius: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%; background: gold; color: black; font-weight: bold;">
+                            100%
+                        </div>
+                    </div>
+                    <p class="mt-3"><strong>Impact :</strong> Plus de 5000 personnes sensibilisées et accompagnées dans la compréhension des textes communautaires.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Section Footer -->
     <footer class="footer-section">
