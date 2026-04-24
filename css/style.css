@@ -1557,3 +1557,20 @@ p {
   color: black !important;
   box-shadow: 0 0 15px gold;
 }
+
+.formations-section {
+  background: rgba(20, 0, 0, 0.85);
+  backdrop-filter: blur(12px);
+  border-top: 2px solid #FFD700;
+}
+
+.formations-section .card-title {
+  color: #FFD700;
+  font-size: 1.2rem;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+.formations-section .card-meta {
+  color: #ccc;
+  font-size: 0.9rem;
+}
