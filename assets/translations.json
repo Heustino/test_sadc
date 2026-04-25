@@ -407,7 +407,43 @@
     "contact_whatsapp_title": "Contact via WhatsApp",
     "send_whatsapp": "Envoyer via WhatsApp",
     "contact_mail_title": "Envoyer un mail direct",
-    "send_email_direct": "Envoyer par Email"
+    "send_email_direct": "Envoyer par Email",
+
+    "secretaire-general-adjoint": "Secrétaire Général Adjoint",
+    "conseiller": "Conseiller",
+
+    "charte-editoriale": "Charte éditoriale du blog \"African Integration Digest\" (Français & Anglais)",
+    "reglement-organisation": "Règlement portant organisation et fonctionnement du blog \"African Integration Digest\" (Français & Anglais)",
+    "chartes-reglements": "Chartes & Règlements",
+
+    "statut": "Statut : En cours",
+
+    "projets_title": "Nos Projets",
+    "projets_subtitle": "Découvrez nos initiatives académiques, juridiques et sociales",
+    "ce-projet": "Ce projet vise à :",
+    "li-projet-1": "Publier régulièrement des articles scientifiques et des analyses sur l’évolution du droit communautaire africain.",
+    "li-projet-2": "Offrir une plateforme de réflexion pour chercheurs, praticiens et institutions.",
+    "li-projet-3": "Favoriser la diffusion des travaux académiques et des débats juridiques au niveau continental.",
+    "etat": "État d’avancement :",
+
+    "formations_title": "Nos Formations",
+    "formations_subtitle": "Développez vos compétences en droit communautaire africain",
+    "initiation-droit": "Initiation au droit communautaire",
+    "duree": "Durée : 2 semaines",
+    "formation-introductive": "Formation introductive pour comprendre les bases du droit communautaire africain.",
+    "seminaire": "Séminaire avancé",
+    "1mois": "Durée : 1 mois",
+    "approfondissement": "Approfondissement des thématiques liées à l’intégration juridique et économique.",
+    "formation_introductive": "Cette formation introductive permet de comprendre les bases du droit communautaire africain.",
+    "formateur": "Formateur : Professeurs et praticiens du droit",
+    "sincrire": "S’inscrire",
+
+    "modalite": "Modalité : En ligne et présentiel",
+
+    "section_motivation": "V. Motivation",
+
+    "poste_president": "Président - SADC │ Magistrat │ Arbitre │ Ph.D en Droit public",
+    "voir-bio": "Voir ma bio"
   },
 
   "en": {
@@ -415,6 +451,33 @@
     "hero-subtitle": "The hub of African community law",
     "hero-btn-revue": "Explore the journal",
     "hero-btn-conferences": "Watch the conferences",
+    "statut": "Status: In progress",
+
+    "poste_president": "President - SADC │ Magistrate │ Arbitrator │ Ph.D in Public Law",
+    "voir-bio": "View my bio",
+
+    "section_motivation": "V. Motivation",
+
+    "formations_title": "Our Trainings",
+    "formations_subtitle": "Develop your skills in African community law",
+    "initiation-droit": "Introduction to Community Law",
+    "duree": "Duration: 2 weeks",
+    "formation-introductive": "Introductory training to understand the basics of African community law.",
+    "seminaire": "Advanced Seminar",
+    "1mois": "Duration: 1 month",
+    "approfondissement": "In-depth study of topics related to legal and economic integration.",
+    "formation_introductive": "This introductory training helps to understand the basics of African community law.",
+    "formateur": "Trainer: Professors and law practitioners",
+    "sincrire": "Register",
+    "modalite": "Modality: Online and in-person",
+
+    "projets_title": "Our Projects",
+    "projets_subtitle": "Discover our academic, legal and social initiatives",
+    "ce-projet": "This project aims to:",
+    "li-projet-1": "Regularly publish scientific articles and analyses on the evolution of African community law.",
+    "li-projet-2": "Provide a platform for reflection for researchers, practitioners and institutions.",
+    "li-projet-3": "Promote the dissemination of academic work and legal debates at the continental level.",
+    "etat": "Progress status:",
 
     "accueil": "Home",
     "apropos": "About us",
@@ -818,7 +881,14 @@
     "contact_whatsapp_title": "Contact via WhatsApp",
     "send_whatsapp": "Send via WhatsApp",
     "contact_mail_title": "Send a direct email",
-    "send_email_direct": "Send by Email"
+    "send_email_direct": "Send by Email",
+
+    "secretaire-general-adjoint": "Deputy Secretary General",
+    "conseiller": "Advisor",
+
+    "charte-editoriale": "Editorial Charter of the blog \"African Integration Digest\" (French & English)",
+    "reglement-organisation": "Regulation on the organization and functioning of the blog \"African Integration Digest\" (French & English)",
+     "chartes-reglements": "Charters & Regulations"
   },
 
   "sw": {
@@ -910,6 +980,14 @@
     "evenements-replay": "Tazama tena",
     "evenements-documents": "Nyaraka",
 
+    "projets_title": "Miradi Yetu",
+    "projets_subtitle": "Gundua mipango yetu ya kitaaluma, kisheria na kijamii",
+    "ce-projet": "Mradi huu unalenga:",
+    "li-projet-1": "Kuchapisha mara kwa mara makala za kisayansi na uchambuzi kuhusu maendeleo ya sheria ya jumuiya ya Afrika.",
+    "li-projet-2": "Kutoa jukwaa la tafakari kwa watafiti, wataalamu na taasisi.",
+    "li-projet-3": "Kukuza usambazaji wa kazi za kitaaluma na mijadala ya kisheria katika ngazi ya bara.",
+    "etat": "Hali ya maendeleo:",
+
     "intervenants-title": "Wazungumzaji",
     "intervenants-subtitle": "Maprofesa, watafiti na wataalamu",
     "intervenant1-name": "Prof. Jean Dupont",
@@ -932,6 +1010,7 @@
     "intervenant3-domaines": "Maeneo: Sheria ya biashara, usuluhishi wa kimataifa.",
     "intervenant3-publications": "Machapisho: Tafiti kuhusu utawala wa kiuchumi.",
     "modal-close": "Funga",
+    "statut": "Hali: Inaendelea",
 
     "thematiques-title": "Mada",
     "thematiques-subtitle": "Gundua maeneo yetu ya utafiti na utekelezaji",
@@ -1030,6 +1109,8 @@
     "valeur4-title": "Athari ya Kijamii",
     "valeur4-text": "Kuchangia katika utawala endelevu na jumuishi.",
 
+    "section_motivation": "V. Motisha",
+
     "textes-fondateurs-title": "Nyaraka za Msingi",
     "textes-fondateurs-subtitle": "Gundua nyaraka zinazofafanua mfumo wetu wa kisheria na kitaasisi.",
     "textes-fondateurs-click": "bonyeza ili kupakua",
@@ -1089,6 +1170,9 @@
   "article-title": "Jarida la Kiafrika la Sheria ya Jumuiya (RADC / AJCL)",
     "article-summary": "Ni jarida la kisayansi linaloandaliwa ndani ya SADC‑ASCL, likiongozwa na Rais mwanzilishi na kuendeshwa na kamati ya kisayansi na kiufundi.",
     "article-author": "Mwandishi: Eugène Pascal Parfait NKILI MBIDA",
+
+    "poste_president": "Rais - SADC │ Hakimu │ Msuluhishi │ Ph.D katika Sheria ya Umma",
+    "voir-bio": "Tazama wasifu wangu",
 
     "footer-title": "SADC-ASCL",
     "footer-description": "Jumuiya ya Kiafrika ya Sheria ya Jamii\nChama cha kitaaluma na kisayansi kisicho cha faida.",
@@ -1161,6 +1245,8 @@
     "nom_yusuf": "Yusuf ABDALLAH SHIKANDA",
     "poste_yusuf": "Mshauri - SADC",
 
+    "modalite": "Njia: Mtandaoni na ana kwa ana",
+
     "fondateurs_title": "Waanzilishi",
     "fondateur_nkili_nom": "Eugène Pascal Parfait NKILI MBIDA",
     "fondateur_nkili_poste": "Rais - SADC",
@@ -1228,7 +1314,26 @@
     "contact_whatsapp_title": "Wasiliana kupitia WhatsApp",
     "send_whatsapp": "Tuma kupitia WhatsApp",
     "contact_mail_title": "Tuma barua pepe moja kwa moja",
-    "send_email_direct": "Tuma kwa Barua pepe"
+    "send_email_direct": "Tuma kwa Barua pepe",
+
+    "secretaire-general-adjoint": "Katibu Mkuu Msaidizi",
+    "conseiller": "Mshauri",
+
+    "charte-editoriale": "Kanuni ya uhariri ya blogu \"African Integration Digest\" (Kifaransa & Kiingereza)",
+    "reglement-organisation": "Kanuni za shirika na uendeshaji wa blogu \"African Integration Digest\" (Kifaransa & Kiingereza)",
+    "chartes-reglements": "Hati na Kanuni",
+
+    "formations_title": "Mafunzo Yetu",
+    "formations_subtitle": "Kuendeleza ujuzi wako katika sheria ya jumuiya ya Afrika",
+    "initiation-droit": "Utangulizi wa Sheria ya Jumuiya",
+    "duree": "Muda: Wiki 2",
+    "formation-introductive": "Mafunzo ya utangulizi kuelewa misingi ya sheria ya jumuiya ya Afrika.",
+    "seminaire": "Semina ya Juu",
+    "1mois": "Muda: Mwezi 1",
+    "approfondissement": "Uchambuzi wa kina wa mada zinazohusiana na ujumuishaji wa kisheria na kiuchumi.",
+    "formation_introductive": "Mafunzo haya ya utangulizi husaidia kuelewa misingi ya sheria ya jumuiya ya Afrika.",
+    "formateur": "Mwalimu: Maprofesa na wataalamu wa sheria",
+    "sincrire": "Jisajili"
   },
 
   "ar": {
@@ -1470,6 +1575,7 @@
     "onu": "هيئة الأمم المتحدة للمرأة (UNW)",
     "uy": "جامعة ياوندي الثانية (UY2)",
     "cerdia": "مركز البحوث والتوثيق حول التكامل الإفريقي (CERDIA)",
+    "modalite": "طريقة: عبر الإنترنت وحضوري",
 
     "adhesion-title": "الانضمام",
   "adhesion-subtitle": "تحدد شروط الانضمام من خلال أنظمتنا الأساسية واللوائح. يجب أن تكون كل طلبات الانضمام مصحوبة بالوثائق المطلوبة.",
@@ -1496,6 +1602,9 @@
   "institutionnels-paiement": "إثبات الدفع",
   "adhesion-form": "املأ الاستمارة",
   "adhesion-contact": "أرسل ملفك",
+
+  "poste_president": "الرئيس - SADC │ قاضٍ │ محكم │ دكتوراه في القانون العام",
+    "voir-bio": "عرض سيرتي الذاتية",
 
   "article-title": "المجلة الإفريقية للقانون المجتمعي (RADC / AJCL)",
     "article-summary": "هي مجلة علمية تستضيفها SADC‑ASCL، يشرف عليها الرئيس المؤسس وتديرها لجنة علمية وتقنية.",
@@ -1558,6 +1667,8 @@
     "section_motivation": "V. الدافع",
     "label_motivation": "رسالة الدافع (بضع كلمات)",
     "btn_valider": "إرسال",
+
+    "section_motivation": "خامساً: الدافع",
 
     "nom_nkili": "يوجين باسكال بارفيه نكيلي مبيدا",
     "poste_nkili": "الرئيس - SADC",
@@ -1639,7 +1750,35 @@
     "contact_whatsapp_title": "الاتصال عبر واتساب",
     "send_whatsapp": "إرسال عبر واتساب",
     "contact_mail_title": "إرسال بريد مباشر",
-    "send_email_direct": "إرسال عبر البريد الإلكتروني"
+    "send_email_direct": "إرسال عبر البريد الإلكتروني",
+
+    "secretaire-general-adjoint": "الأمين العام المساعد",
+    "conseiller": "مستشار",
+
+    "charte-editoriale": "الميثاق التحريري لمدونة \"African Integration Digest\" (بالفرنسية والإنجليزية)",
+    "reglement-organisation": "اللائحة المتعلقة بتنظيم وتشغيل مدونة \"African Integration Digest\" (بالفرنسية والإنجليزية)",
+    "chartes-reglements": "مواثيق ولوائح",
+    "statut": "الحالة: جارٍ التنفيذ",
+
+    "projets_title": "مشاريعنا",
+    "projets_subtitle": "اكتشف مبادراتنا الأكاديمية والقانونية والاجتماعية",
+    "ce-projet": "يهدف هذا المشروع إلى:",
+    "li-projet-1": "نشر مقالات علمية وتحليلات بانتظام حول تطور القانون المجتمعي الإفريقي.",
+    "li-projet-2": "توفير منصة للتفكير للباحثين والممارسين والمؤسسات.",
+    "li-projet-3": "تعزيز نشر الأعمال الأكاديمية والنقاشات القانونية على المستوى القاري.",
+    "etat": "حالة التقدم:",
+
+    "formations_title": "تدريباتنا",
+    "formations_subtitle": "طوّر مهاراتك في قانون المجتمع الإفريقي",
+    "initiation-droit": "مقدمة في القانون المجتمعي",
+    "duree": "المدة: أسبوعان",
+    "formation-introductive": "تدريب تمهيدي لفهم أساسيات القانون المجتمعي الإفريقي.",
+    "seminaire": "ندوة متقدمة",
+    "1mois": "المدة: شهر واحد",
+    "approfondissement": "تعميق الموضوعات المتعلقة بالاندماج القانوني والاقتصادي.",
+    "formation_introductive": "يساعد هذا التدريب التمهيدي على فهم أساسيات القانون المجتمعي الإفريقي.",
+    "formateur": "المدرب: أساتذة وممارسو القانون",
+    "sincrire": "سجّل الآن"
   }
 }
 
