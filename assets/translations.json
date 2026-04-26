@@ -443,7 +443,8 @@
     "section_motivation": "V. Motivation",
 
     "poste_president": "Président - SADC │ Magistrat │ Arbitre │ Ph.D en Droit public",
-    "voir-bio": "Voir ma bio"
+    "voir-bio": "Voir ma bio",
+    "membre-fondateur": "Membre Fondateur - SADC"
   },
 
   "en": {
@@ -452,6 +453,7 @@
     "hero-btn-revue": "Explore the journal",
     "hero-btn-conferences": "Watch the conferences",
     "statut": "Status: In progress",
+     "membre-fondateur": "Founding Member - SADC",
 
     "poste_president": "President - SADC │ Magistrate │ Arbitrator │ Ph.D in Public Law",
     "voir-bio": "View my bio",
@@ -896,6 +898,7 @@
     "hero-subtitle": "Kituo cha sheria ya jumuiya ya Afrika",
     "hero-btn-revue": "Chunguza jarida",
     "hero-btn-conferences": "Tazama mikutano",
+    "membre-fondateur": "Mwanachama Mwanzilishi - SADC",
 
     "accueil": "Nyumbani",
     "apropos": "Kuhusu",
@@ -1370,6 +1373,7 @@
     "communaute": "المجتمع",
     "langue": "اللغة",
     "ressources": "الموارد",
+    "membre-fondateur": "عضو مؤسس - SADC",
 
     "revue-title": "المجلة العلمية",
     "revue-subtitle": "مقالات أكاديمية، دفاتر قانونية ومنشورات",
