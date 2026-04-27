@@ -479,7 +479,20 @@
     "mediatheque-video19-title": "La libre circulation à l'épreuve de la ZLECAF",
     "mediatheque-video19-duration": "Durée : 01:31:54",
     "mediatheque-video20-title": "Colloque de la SADC - Panel 4: La ZLECAf face aux enjeux du siècle",
-    "mediatheque-video20-duration": "Durée : 03:02:55"
+    "mediatheque-video20-duration": "Durée : 03:02:55",
+
+    "pionniers": "Pionniers de l'intégration africaine",
+    "titre1-sall": "Professeur Titulaire à l’Université Cheikh Anta Diop de Dakar",
+    "titre2-sall": "Avocat, Ancien Juge à la Cour de Justice de la CEDEAO",
+    "titre3-sall": "Vice-Président de la Commission du Droit International des Nations Unies",
+    "titre4-sall": "Membre de la Cour Permanente d’Arbitrage",
+
+    "titre-coffee": "THE COFFEE OF INTEGRATION",
+    "sub-content-coffee": "THE COFFEE OF INTEGRATION est un programme...",
+    "titre-feu": "AUTOUR DU FEU",
+    "sub-content-feu": "AUTOUR DU FEU est un programme...",
+    "content-coffee": "THE COFFEE OF INTEGRATION est un programme virtuel hébergé par la Société Africaine de Droit Communautaire, dédié aux questionnements et au positionnement sur l’actualité de l’intégration africaine. Sa première session a été réalisée le 5 août 2023 et depuis lors, elle a connu de nombreuses interventions. Ce programme se veut une plateforme de rencontre des chercheurs séniors de diverses disciplines pour participer au développement d’une intégration des peuples pour renverser la table d’une intégration des gouvernements dont les insuffisances semblent éprouver.",
+    "content-feu": "AUTOUR DU FEU est un programme virtuel hébergé par la Société Africaine de Droit Communautaire, dédié à la jeune recherche africaine. Il a pour objectif d’offrir un espace de discussion et de valorisation des jeunes chercheurs africains (dans les cycles Licence, Master et Doctorat) sur des thématiques touchant à l’intégration africaine. Il s’agit d’un programme mensuel, animé par de jeunes ressortissant de chacune des 5 régions de l’Afrique (Sud, Est, Centre, Ouest, Nord) en vue de croiser les regards et créer des ponts entre les différentes Afriques, en vue d’un continent intégré et prospère à l’horizon 2063."
   },
 
   "en": {
@@ -489,6 +502,12 @@
     "hero-btn-conferences": "Watch the conferences",
     "statut": "Status: In progress",
      "membre-fondateur": "Founding Member - SADC",
+
+     "pionniers": "Pioneers of African Integration",
+    "titre1-sall": "Full Professor at Cheikh Anta Diop University of Dakar",
+    "titre2-sall": "Lawyer, Former Judge at the ECOWAS Court of Justice",
+    "titre3-sall": "Vice-President of the United Nations International Law Commission",
+    "titre4-sall": "Member of the Permanent Court of Arbitration",
 
     "poste_president": "President - SADC │ Magistrate │ Arbitrator │ Ph.D in Public Law",
     "voir-bio": "View my bio",
@@ -960,7 +979,14 @@
     "mediatheque-video19-title": "Free movement put to the test of AfCFTA",
     "mediatheque-video19-duration": "Duration: 01:31:54",
     "mediatheque-video20-title": "SADC Colloquium - Panel 4: AfCFTA facing the challenges of the century",
-    "mediatheque-video20-duration": "Duration: 03:02:55"
+    "mediatheque-video20-duration": "Duration: 03:02:55",
+
+    "titre-coffee": "THE COFFEE OF INTEGRATION",
+    "sub-content-coffee": "THE COFFEE OF INTEGRATION is a program...",
+    "titre-feu": "AROUND THE FIRE",
+    "sub-content-feu": "AROUND THE FIRE is a program...",
+    "content-coffee": "THE COFFEE OF INTEGRATION is a virtual program hosted by the African Society of Community Law, dedicated to questioning and positioning on the current state of African integration. Its first session was held on August 5, 2023, and since then, it has featured numerous interventions. This program aims to be a platform for senior researchers from various disciplines to contribute to the development of people-centered integration, overturning the shortcomings of government-led integration.",
+    "content-feu": "AROUND THE FIRE is a virtual program hosted by the African Society of Community Law, dedicated to young African research. Its objective is to provide a space for discussion and recognition of young African researchers (in Bachelor, Master, and Doctorate cycles) on topics related to African integration. It is a monthly program, led by young representatives from each of the five regions of Africa (South, East, Central, West, North), with the aim of exchanging perspectives and building bridges between the different Africas, towards an integrated and prosperous continent by 2063."
   },
 
   "sw": {
@@ -1441,7 +1467,20 @@
     "mediatheque-video19-title": "Uhuru wa kusafiri katika mtihani wa ZLECAF",
     "mediatheque-video19-duration": "Muda: 01:31:54",
     "mediatheque-video20-title": "Mkutano wa SADC - Paneli 4: ZLECAF ikikabiliana na changamoto za karne",
-    "mediatheque-video20-duration": "Muda: 03:02:55"
+    "mediatheque-video20-duration": "Muda: 03:02:55",
+
+    "pionniers": "Waanzilishi wa Ujumuikaji wa Afrika",
+    "titre1-sall": "Profesa Kamili katika Chuo Kikuu cha Cheikh Anta Diop cha Dakar",
+    "titre2-sall": "Wakili, Jaji wa Zamani katika Mahakama ya Haki ya ECOWAS",
+    "titre3-sall": "Makamu wa Rais wa Tume ya Sheria ya Kimataifa ya Umoja wa Mataifa",
+    "titre4-sall": "Mwanachama wa Mahakama ya Kudumu ya Usuluhishi",
+
+    "titre-coffee": "KAHAWA YA UJUMUIKAZI",
+    "titre-feu": "KARIBU NA MOTO",
+    "sub-content-coffee": "KAHAWA YA UJUMUIKAZI ni mpango...",
+    "sub-content-feu": "KARIBU NA MOTO ni mpango...",
+    "content-coffee": "KAHAWA YA UJUMUIKAZI ni mpango wa mtandaoni unaoandaliwa na Jumuiya ya Kiafrika ya Sheria ya Jumuiya, uliotolewa kwa maswali na nafasi kuhusu hali ya sasa ya ujumuikaji wa Afrika. Kikao chake cha kwanza kilifanyika tarehe 5 Agosti 2023 na tangu wakati huo kimekuwa na michango mingi. Mpango huu unakusudia kuwa jukwaa la kukutana kwa watafiti wakuu kutoka taaluma mbalimbali kushiriki katika kukuza ujumuikaji wa watu, ili kubadilisha mapungufu ya ujumuikaji unaoongozwa na serikali.",
+    "content-feu": "KARIBU NA MOTO ni mpango wa mtandaoni unaoandaliwa na Jumuiya ya Kiafrika ya Sheria ya Jumuiya, uliotolewa kwa utafiti wa vijana wa Kiafrika. Lengo lake ni kutoa nafasi ya majadiliano na kuthamini watafiti wachanga wa Kiafrika (katika ngazi za Shahada, Uzamili na Uzamivu) juu ya mada zinazohusu ujumuikaji wa Afrika. Ni mpango wa kila mwezi, unaoendeshwa na vijana kutoka kila moja ya kanda tano za Afrika (Kusini, Mashariki, Kati, Magharibi, Kaskazini) kwa lengo la kubadilishana mitazamo na kujenga madaraja kati ya Afrika mbalimbali, kuelekea bara lililojumuishwa na lenye ustawi ifikapo 2063."
   },
 
   "ar": {
@@ -1449,6 +1488,12 @@
     "hero-subtitle": "مركز القانون المجتمعي الأفريقي",
     "hero-btn-revue": "استكشاف المجلة",
     "hero-btn-conferences": "مشاهدة المؤتمرات",
+
+    "pionniers": "رواد الاندماج الأفريقي",
+    "titre1-sall": "أستاذ جامعي في جامعة الشيخ أنتا ديوب في داكار",
+    "titre2-sall": "محامٍ، قاضٍ سابق في محكمة عدل الإيكواس",
+    "titre3-sall": "نائب رئيس لجنة القانون الدولي التابعة للأمم المتحدة",
+    "titre4-sall": "عضو في محكمة التحكيم الدائمة",
 
     "accueil": "الرئيسية",
     "apropos": "حول",
@@ -1922,7 +1967,14 @@
     "mediatheque-video19-title": "حرية التنقل على محك اتفاقية ZLECAF",
     "mediatheque-video19-duration": "المدة: 01:31:54",
     "mediatheque-video20-title": "ندوة SADC - الجلسة 4: اتفاقية ZLECAF في مواجهة تحديات القرن",
-    "mediatheque-video20-duration": "المدة: 03:02:55"
+    "mediatheque-video20-duration": "المدة: 03:02:55",
+
+    "titre-coffee": "قهوة الاندماج",
+    "sub-content-coffee": "قهوة الاندماج هو برنامج...",
+    "titre-feu": "حول النار",
+    "sub-content-feu": "حول النار هو برنامج...",
+    "content-coffee": "قهوة الاندماج هو برنامج افتراضي تستضيفه الجمعية الأفريقية للقانون المجتمعي، مخصص للتساؤلات والمواقف حول واقع الاندماج الأفريقي. عقدت جلسته الأولى في 5 أغسطس 2023 ومنذ ذلك الحين شهد العديد من التدخلات. يهدف هذا البرنامج إلى أن يكون منصة لقاء للباحثين الكبار من مختلف التخصصات للمساهمة في تطوير اندماج قائم على الشعوب، لقلب الطاولة على اندماج الحكومات الذي تبدو نقائصه واضحة.",
+    "content-feu": "حول النار هو برنامج افتراضي تستضيفه الجمعية الأفريقية للقانون المجتمعي، مخصص للبحث العلمي الشبابي الأفريقي. هدفه هو توفير مساحة للنقاش وتقدير الباحثين الشباب الأفارقة (في مراحل الإجازة، الماجستير والدكتوراه) حول موضوعات تتعلق بالاندماج الأفريقي. إنه برنامج شهري، يديره شباب من كل واحدة من المناطق الخمس في أفريقيا (الجنوب، الشرق، الوسط، الغرب، الشمال) بهدف تبادل وجهات النظر وبناء جسور بين مختلف الأفريقيات، نحو قارة متكاملة ومزدهرة بحلول عام 2063."
   }
 }
 
