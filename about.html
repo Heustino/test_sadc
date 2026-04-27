@@ -7,6 +7,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <style>
+        .partner-card {
+            display: inline-block;
+            margin: 15px;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            color: gold;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            background-color: transparent;
+        }
+
+        .partner-card:hover {
+            background-color: gold;
+            color: #000;
+            transform: scale(1.05);
+        }
+
+        .partners-logos {
+            gap: 20px;
+        }
+    </style>
 </head>
 <body> 
 
@@ -293,18 +317,18 @@
                 </div>
 
                 <!-- ELLA -->
-                <!-- <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100 text-center">
-                        <img src="./assets/img.jpg" alt="Photo Arsène Chinois ELLA NTOU’OU"
+                        <img src="./assets/img_ELLA.jpg" alt="Photo Arsène Chinois ELLA NTOU’OU"
                         class="img-fluid rounded-circle mx-auto mt-3 futuristic-thumbnail"
                         style="width:150px; height:150px;">
                         <div class="card-body">
-                            <h5 class="card-title" data-i18n="">ELLA NTOU’OU Arsène Chinois</h5>
-                            <p class="card-text" data-i18n="fondateur_ella_poste">Membre Fondateur - SADC</p>
+                            <h5 class="card-title" data-i18n="">Arsène Chinois ELLA NTOU’OU </h5>
+                            <p class="card-text" data-i18n="membre-fondateur">Membre Fondateur - SADC</p>
                             <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#bioElla" data-i18n="voir_plus">Voir plus</button>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- FALL -->
                 <div class="col-md-4 mb-4">
@@ -403,17 +427,21 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <p data-i18n="poste_membre">Membre Fondateur - SADC</p>
+                    <p data-i18n="poste_ella">
+                        Docteur/PhD en droit public. <br>
+                        Chargé de cours au Département de droit public international et communautaire de 
+                        la Faculté des Sciences Juridique et Politiques de l'Université de Yaoundé II. <br>
+                        Directeur des Affaires Académiques et de la Coopération à l'Université Multinationale 
+                        d'Ambam  (UMA).</p>
                     <h6 data-i18n="reseaux">Réseaux sociaux :</h6>
                     <div class="social-icons">
                         <!-- <a href="#" class="social-link"><i class="bi bi-facebook"></i></a> -->
-                        <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/arsène-chinois-ella-ntou-ou-76b087309?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-link"><i class="bi bi-linkedin"></i></a>
                     </div>
                     <div class="text-center mt-3">
-                        <a href="">
+                        <a href="/Docs/Dossiers membres/bio_ELLA.pdf">
                             <button class="btn btn-custom" data-i18n="voir-bio">Voir ma bio</button>
-                        </a>
-                        
+                        </a>                    
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -594,9 +622,9 @@
                 </div>
 
                 <!-- Arsène Chinois ELLA NTOU’OU -->
-                <!-- <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4">
                     <div class="card futuristic-card h-100 text-center">
-                        <img src="./assets/img.jpg" alt="Photo Arsène Chinois ELLA NTOU’OU"
+                        <img src="./assets/img_ELLA.jpg" alt="Photo Arsène Chinois ELLA NTOU’OU"
                         class="img-fluid rounded-circle mx-auto mt-3 futuristic-thumbnail"
                         style="width:150px; height:150px;">
                         <div class="card-body">
@@ -605,7 +633,7 @@
                             <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#bioEllaBureau" data-i18n="voir_plus">Voir plus</button>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- Sanae BOUYAYACHEN -->
                 <div class="col-md-4 mb-4">
@@ -790,25 +818,31 @@
     </div>
 
     <!-- Modale Arsène Chinois ELLA NTOU’OU -->
-    <!-- <div class="modal fade" id="bioEllaBureau" tabindex="-1" aria-hidden="true">
+    <!-- Modale ELLA -->
+    <div class="modal fade" id="bioEllaBureau" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content futuristic-modal">
                 <div class="modal-header">
-                    <h5 class="modal-title" data-i18n="bureau_ella_nom">
-                        <strong data-i18n="label_nom">Nom :</strong> Arsène Chinois ELLA NTOU’OU
-                    </h5>
+                    <h5 class="modal-title"><strong data-i18n="nom">Nom :</strong>Arsène Chinois ELLA NTOU’OU </h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <p data-i18n="bureau_ella_poste">
-                        <strong data-i18n="label_titre">Titre :</strong> Vice-Président - SADC (Centre)
+                    <p data-i18n="poste_ella">Membre Fondateur - SADC. <br> 
+                        Docteur/PhD en droit public. <br>
+                        Chargé de cours au Département de droit public international et communautaire de 
+                        la Faculté des Sciences Juridique et Politiques de l'Université de Yaoundé II. <br>
+                        Directeur des Affaires Académiques et de la Coopération à l'Université Multinationale 
+                        d'Ambam  (UMA).
                     </p>
-                    <h6 data-i18n="label_reseaux">Réseaux sociaux :</h6>
+                    <h6 data-i18n="reseaux">Réseaux sociaux :</h6>
                     <div class="social-icons">
-                        <a href="" class="social-link"><i class="bi bi-linkedin"></i></a>
+                        <!-- <a href="#" class="social-link"><i class="bi bi-facebook"></i></a> -->
+                        <a href="https://www.linkedin.com/in/arsène-chinois-ella-ntou-ou-76b087309?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-link"><i class="bi bi-linkedin"></i></a>
                     </div>
                     <div class="text-center mt-3">
-                        <button class="btn btn-custom" data-i18n="voir_bio">Voir ma bio</button>
+                        <a href="/Docs/Dossiers membres/bio_ELLA.pdf">
+                            <button class="btn btn-custom" data-i18n="voir-bio">Voir ma bio</button>
+                        </a>                    
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -816,7 +850,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!-- Modale Sanae BOUYAYACHEN -->
     <div class="modal fade" id="bioSanae" tabindex="-1" aria-hidden="true">
@@ -830,9 +864,9 @@
                 </div>
                 <div class="modal-body">
                     <p data-i18n="bureau_sanae_poste">
-                        <strong data-i18n="label_titre">Titre :</strong> Secrétaire Générale - SADC
+                        <strong data-i18n="label_titre">Titre : Secrétaire Générale - SADC</strong> 
                     </p>
-                    <h6 data-i18n="label_reseaux">Réseaux sociaux :</h6>
+                    <h6 data-i18n="reseaux">Réseaux sociaux :</h6>
                     <div class="social-icons">
                         <!-- <a href="#" class="social-link"><i class="bi bi-facebook"></i></a> -->
                         <a href="https://www.linkedin.com/in/sanae-bouyayachen-314a93231?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-link"><i class="bi bi-linkedin"></i></a>
@@ -1676,21 +1710,22 @@
                     Les institutions et organisations qui nous accompagnent dans notre mission.
                 </p>
             </div>
-            <div class="partners-logos">
-                <div class="partner-card">
-                    <!-- <img src="/assets/unwomen_logo.png" alt="ONU Femmes" /> -->
-                    <p data-i18n="onu">
-                        ONU Femmes <br> (UNW)
-                    </p>
-                </div>
-                <div class="partner-card">
-                    <!-- <img src="/assets/logo uy2.jfif" alt="Université partenaire" /> -->
-                    <p data-i18n="uy">Université de Yaoundé 2 <br>(UY2)</p>
-                </div>
-                <div class="partner-card">
-                    <!-- <img src="/assets/Logo de la SADC.png" alt="Centre de recherche" /> -->
-                    <p data-i18n="cerdia">Centre de Recherches et de Documentation sur l’Intégration Africaine (CERDIA)</p>
-                </div>
+
+            <div class="partners-logos d-flex justify-content-center flex-wrap">
+                <!-- Carte partenaire CERA-BF -->
+                <a href="https://www.cera-bf.com" target="_blank" class="partner-card" data-i18n="cera">
+                    Centre d'Etudes Régionales Africaines (CERA-BF)
+                </a>
+
+                <!-- Carte partenaire Université de Yaoundé II -->
+                <a href="https://www.linkedin.com/company/association-pour-la-promotion-de-la-commande-publique-en-afrique/" target="_blank" class="partner-card" data-i18n="apcpa">
+                    Association pour la Promotion de la Commande Publique en Afrique
+                </a>
+
+                <!-- Carte partenaire CERDIA -->
+                <a href="https://www.irdeic.ut-capitole.fr" target="_blank" class="partner-card" data-i18n="irdeic">
+                    Institut de Recherche en Droit Européen, International et Comparé (IRDEIC)
+                </a>
             </div>
         </div>
     </section>
