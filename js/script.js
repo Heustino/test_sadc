@@ -219,7 +219,7 @@ function sendWhatsApp() {
   const message = document.getElementById("message").value;
 
   // Numéro WhatsApp institutionnel (à remplacer par le vrai numéro)
-  const phoneNumber = "+237690634101";
+  const phoneNumber = "+237654807793";
 
   // Message formaté
   const text = `Nom: ${nom}\nMessage: ${message}`;
